@@ -1,0 +1,74 @@
+[
+    {
+        "id": 2410758,
+        "name": "Sao Tome and Principe",
+        "country": "ST",
+        "coord": {
+            "lon": 7,
+            "lat": 1
+        }
+    },
+    {
+        "id": 2410764,
+        "name": "S\u00e3o Tom\u00e9",
+        "country": "ST",
+        "coord": {
+            "lon": 6.65,
+            "lat": 0.2
+        }
+    },
+    {
+        "id": 2410763,
+        "name": "Sao Tome",
+        "country": "ST",
+        "coord": {
+            "lon": 6.72732,
+            "lat": 0.33654
+        }
+    },
+    {
+        "id": 2410737,
+        "name": "Trindade",
+        "country": "ST",
+        "coord": {
+            "lon": 6.68333,
+            "lat": 0.3
+        }
+    },
+    {
+        "id": 2410975,
+        "name": "Nazar\u00e9",
+        "country": "ST",
+        "coord": {
+            "lon": 6.71667,
+            "lat": 0.36667
+        }
+    },
+    {
+        "id": 2410878,
+        "name": "Pr\u00edncipe",
+        "country": "ST",
+        "coord": {
+            "lon": 7.41667,
+            "lat": 1.61667
+        }
+    },
+    {
+        "id": 2411001,
+        "name": "Montalv\u00e3o",
+        "country": "ST",
+        "coord": {
+            "lon": 7.41667,
+            "lat": 1.66667
+        }
+    },
+    {
+        "id": 2410805,
+        "name": "Santo Antonio",
+        "country": "ST",
+        "coord": {
+            "lon": 7.41783,
+            "lat": 1.63726
+        }
+    }
+]

@@ -1,0 +1,821 @@
+[
+    {
+        "id": 146267,
+        "name": "Nicosia District",
+        "country": "CY",
+        "coord": {
+            "lon": 33.200001,
+            "lat": 35.066669
+        }
+    },
+    {
+        "id": 145964,
+        "name": "Yeri",
+        "country": "CY",
+        "coord": {
+            "lon": 33.416672,
+            "lat": 35.099998
+        }
+    },
+    {
+        "id": 18918,
+        "name": "Protaras",
+        "country": "CY",
+        "coord": {
+            "lon": 34.058331,
+            "lat": 35.012501
+        }
+    },
+    {
+        "id": 146411,
+        "name": "Kyrenia District",
+        "country": "CY",
+        "coord": {
+            "lon": 33.26667,
+            "lat": 35.25
+        }
+    },
+    {
+        "id": 146669,
+        "name": "Republic of Cyprus",
+        "country": "CY",
+        "coord": {
+            "lon": 33,
+            "lat": 35
+        }
+    },
+    {
+        "id": 146268,
+        "name": "Nicosia",
+        "country": "CY",
+        "coord": {
+            "lon": 33.366669,
+            "lat": 35.166672
+        }
+    },
+    {
+        "id": 146769,
+        "name": "Athalassa",
+        "country": "CY",
+        "coord": {
+            "lon": 33.400002,
+            "lat": 35.145828
+        }
+    },
+    {
+        "id": 146383,
+        "name": "Limassol District",
+        "country": "CY",
+        "coord": {
+            "lon": 32.916672,
+            "lat": 34.783329
+        }
+    },
+    {
+        "id": 146384,
+        "name": "Limassol",
+        "country": "CY",
+        "coord": {
+            "lon": 33.033329,
+            "lat": 34.674999
+        }
+    },
+    {
+        "id": 146213,
+        "name": "Paphos District",
+        "country": "CY",
+        "coord": {
+            "lon": 32.583328,
+            "lat": 34.833328
+        }
+    },
+    {
+        "id": 146214,
+        "name": "Paphos",
+        "country": "CY",
+        "coord": {
+            "lon": 32.416672,
+            "lat": 34.76667
+        }
+    },
+    {
+        "id": 146615,
+        "name": "Famagusta District",
+        "country": "CY",
+        "coord": {
+            "lon": 33.866669,
+            "lat": 35.333328
+        }
+    },
+    {
+        "id": 146209,
+        "name": "Paralimni",
+        "country": "CY",
+        "coord": {
+            "lon": 33.98333,
+            "lat": 35.037498
+        }
+    },
+    {
+        "id": 146398,
+        "name": "Larnaca District",
+        "country": "CY",
+        "coord": {
+            "lon": 33.916672,
+            "lat": 34.950001
+        }
+    },
+    {
+        "id": 146400,
+        "name": "Larnaca",
+        "country": "CY",
+        "coord": {
+            "lon": 33.629169,
+            "lat": 34.916672
+        }
+    },
+    {
+        "id": 146633,
+        "name": "Episkopi",
+        "country": "CY",
+        "coord": {
+            "lon": 32.899719,
+            "lat": 34.671379
+        }
+    },
+    {
+        "id": 146137,
+        "name": "Polis",
+        "country": "CY",
+        "coord": {
+            "lon": 32.426392,
+            "lat": 35.036671
+        }
+    },
+    {
+        "id": 146617,
+        "name": "Famagusta",
+        "country": "CY",
+        "coord": {
+            "lon": 33.950001,
+            "lat": 35.125
+        }
+    },
+    {
+        "id": 146392,
+        "name": "Lefka",
+        "country": "CY",
+        "coord": {
+            "lon": 32.850559,
+            "lat": 35.110561
+        }
+    },
+    {
+        "id": 146639,
+        "name": "Emba",
+        "country": "CY",
+        "coord": {
+            "lon": 32.424999,
+            "lat": 34.808331
+        }
+    },
+    {
+        "id": 146286,
+        "name": "Morphou",
+        "country": "CY",
+        "coord": {
+            "lon": 32.99139,
+            "lat": 35.198059
+        }
+    },
+    {
+        "id": 146233,
+        "name": "Pallouriotissa",
+        "country": "CY",
+        "coord": {
+            "lon": 33.387501,
+            "lat": 35.174999
+        }
+    },
+    {
+        "id": 146778,
+        "name": "Asinou",
+        "country": "CY",
+        "coord": {
+            "lon": 32.979172,
+            "lat": 35.04583
+        }
+    },
+    {
+        "id": 146748,
+        "name": "Ayia Napa",
+        "country": "CY",
+        "coord": {
+            "lon": 34.001831,
+            "lat": 34.982128
+        }
+    },
+    {
+        "id": 146027,
+        "name": "Trikomo",
+        "country": "CY",
+        "coord": {
+            "lon": 33.89167,
+            "lat": 35.287498
+        }
+    },
+    {
+        "id": 146582,
+        "name": "Kakopetria",
+        "country": "CY",
+        "coord": {
+            "lon": 32.904171,
+            "lat": 34.991669
+        }
+    },
+    {
+        "id": 146844,
+        "name": "Akhelia",
+        "country": "CY",
+        "coord": {
+            "lon": 32.487499,
+            "lat": 34.741669
+        }
+    },
+    {
+        "id": 145961,
+        "name": "Yerolakkos",
+        "country": "CY",
+        "coord": {
+            "lon": 33.25,
+            "lat": 35.183331
+        }
+    },
+    {
+        "id": 146654,
+        "name": "Dhromolaxia",
+        "country": "CY",
+        "coord": {
+            "lon": 33.586842,
+            "lat": 34.875511
+        }
+    },
+    {
+        "id": 146011,
+        "name": "Tymbou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.512501,
+            "lat": 35.133331
+        }
+    },
+    {
+        "id": 146412,
+        "name": "Kyrenia",
+        "country": "CY",
+        "coord": {
+            "lon": 33.316669,
+            "lat": 35.341671
+        }
+    },
+    {
+        "id": 145952,
+        "name": "Ypsonas",
+        "country": "CY",
+        "coord": {
+            "lon": 32.957432,
+            "lat": 34.688438
+        }
+    },
+    {
+        "id": 145981,
+        "name": "Xeri",
+        "country": "CY",
+        "coord": {
+            "lon": 33.320831,
+            "lat": 35.075001
+        }
+    },
+    {
+        "id": 145987,
+        "name": "Voroklini",
+        "country": "CY",
+        "coord": {
+            "lon": 33.658329,
+            "lat": 34.98333
+        }
+    },
+    {
+        "id": 146015,
+        "name": "Troulli",
+        "country": "CY",
+        "coord": {
+            "lon": 33.616669,
+            "lat": 35.033329
+        }
+    },
+    {
+        "id": 146040,
+        "name": "Tersephanou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.54583,
+            "lat": 34.854172
+        }
+    },
+    {
+        "id": 146045,
+        "name": "Tala",
+        "country": "CY",
+        "coord": {
+            "lon": 32.433331,
+            "lat": 34.837502
+        }
+    },
+    {
+        "id": 146069,
+        "name": "Sotira",
+        "country": "CY",
+        "coord": {
+            "lon": 32.862499,
+            "lat": 34.729172
+        }
+    },
+    {
+        "id": 146105,
+        "name": "Rizokarpaso",
+        "country": "CY",
+        "coord": {
+            "lon": 34.375,
+            "lat": 35.599998
+        }
+    },
+    {
+        "id": 146107,
+        "name": "Pyrgos",
+        "country": "CY",
+        "coord": {
+            "lon": 33.183331,
+            "lat": 34.741669
+        }
+    },
+    {
+        "id": 146110,
+        "name": "Pyla",
+        "country": "CY",
+        "coord": {
+            "lon": 33.691669,
+            "lat": 35.029171
+        }
+    },
+    {
+        "id": 146112,
+        "name": "Psimolofou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.262501,
+            "lat": 35.0625
+        }
+    },
+    {
+        "id": 146114,
+        "name": "Psevdhas",
+        "country": "CY",
+        "coord": {
+            "lon": 33.462502,
+            "lat": 34.950001
+        }
+    },
+    {
+        "id": 146150,
+        "name": "Pissouri",
+        "country": "CY",
+        "coord": {
+            "lon": 32.708328,
+            "lat": 34.67083
+        }
+    },
+    {
+        "id": 146154,
+        "name": "Phrenaros",
+        "country": "CY",
+        "coord": {
+            "lon": 33.924999,
+            "lat": 35.041672
+        }
+    },
+    {
+        "id": 146175,
+        "name": "Peyia",
+        "country": "CY",
+        "coord": {
+            "lon": 32.383331,
+            "lat": 34.883331
+        }
+    },
+    {
+        "id": 146183,
+        "name": "Perivolia",
+        "country": "CY",
+        "coord": {
+            "lon": 33.583328,
+            "lat": 34.82917
+        }
+    },
+    {
+        "id": 146187,
+        "name": "Peristerona",
+        "country": "CY",
+        "coord": {
+            "lon": 33.07917,
+            "lat": 35.133331
+        }
+    },
+    {
+        "id": 146192,
+        "name": "Pera",
+        "country": "CY",
+        "coord": {
+            "lon": 33.25,
+            "lat": 35.033329
+        }
+    },
+    {
+        "id": 146198,
+        "name": "Pelendria",
+        "country": "CY",
+        "coord": {
+            "lon": 32.966671,
+            "lat": 34.900002
+        }
+    },
+    {
+        "id": 146204,
+        "name": "Parekklisha",
+        "country": "CY",
+        "coord": {
+            "lon": 33.158329,
+            "lat": 34.745831
+        }
+    },
+    {
+        "id": 146216,
+        "name": "Pano Polemidhia",
+        "country": "CY",
+        "coord": {
+            "lon": 33,
+            "lat": 34.700001
+        }
+    },
+    {
+        "id": 146225,
+        "name": "Pano Dheftera",
+        "country": "CY",
+        "coord": {
+            "lon": 33.262501,
+            "lat": 35.07917
+        }
+    },
+    {
+        "id": 146245,
+        "name": "Pakhna",
+        "country": "CY",
+        "coord": {
+            "lon": 32.79583,
+            "lat": 34.779171
+        }
+    },
+    {
+        "id": 146278,
+        "name": "Moutayiaka",
+        "country": "CY",
+        "coord": {
+            "lon": 33.099998,
+            "lat": 34.720829
+        }
+    },
+    {
+        "id": 146283,
+        "name": "Mosphiloti",
+        "country": "CY",
+        "coord": {
+            "lon": 33.429169,
+            "lat": 34.950001
+        }
+    },
+    {
+        "id": 146303,
+        "name": "Mesoyi",
+        "country": "CY",
+        "coord": {
+            "lon": 32.458328,
+            "lat": 34.816669
+        }
+    },
+    {
+        "id": 146311,
+        "name": "Meneou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.570831,
+            "lat": 34.849998
+        }
+    },
+    {
+        "id": 146347,
+        "name": "Mammari",
+        "country": "CY",
+        "coord": {
+            "lon": 33.200001,
+            "lat": 35.166672
+        }
+    },
+    {
+        "id": 146358,
+        "name": "Lythrodhondas",
+        "country": "CY",
+        "coord": {
+            "lon": 33.29583,
+            "lat": 34.950001
+        }
+    },
+    {
+        "id": 146362,
+        "name": "Lymbia",
+        "country": "CY",
+        "coord": {
+            "lon": 33.462502,
+            "lat": 35
+        }
+    },
+    {
+        "id": 146371,
+        "name": "Livadhia",
+        "country": "CY",
+        "coord": {
+            "lon": 33.629169,
+            "lat": 34.95417
+        }
+    },
+    {
+        "id": 146375,
+        "name": "Liopetri",
+        "country": "CY",
+        "coord": {
+            "lon": 33.89167,
+            "lat": 35.008331
+        }
+    },
+    {
+        "id": 146386,
+        "name": "Leonarisso",
+        "country": "CY",
+        "coord": {
+            "lon": 34.14167,
+            "lat": 35.470829
+        }
+    },
+    {
+        "id": 146391,
+        "name": "Lefkoniko",
+        "country": "CY",
+        "coord": {
+            "lon": 33.73333,
+            "lat": 35.258331
+        }
+    },
+    {
+        "id": 146403,
+        "name": "Lapithos",
+        "country": "CY",
+        "coord": {
+            "lon": 33.179169,
+            "lat": 35.337502
+        }
+    },
+    {
+        "id": 146414,
+        "name": "Kyperounda",
+        "country": "CY",
+        "coord": {
+            "lon": 32.974998,
+            "lat": 34.9375
+        }
+    },
+    {
+        "id": 146438,
+        "name": "Kornos",
+        "country": "CY",
+        "coord": {
+            "lon": 33.39167,
+            "lat": 34.92083
+        }
+    },
+    {
+        "id": 146445,
+        "name": "Kophinou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.387501,
+            "lat": 34.825001
+        }
+    },
+    {
+        "id": 146455,
+        "name": "Kokkini Trimithia",
+        "country": "CY",
+        "coord": {
+            "lon": 33.200001,
+            "lat": 35.154171
+        }
+    },
+    {
+        "id": 146461,
+        "name": "Klirou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.179169,
+            "lat": 35.020828
+        }
+    },
+    {
+        "id": 146469,
+        "name": "Kiti",
+        "country": "CY",
+        "coord": {
+            "lon": 33.575001,
+            "lat": 34.849998
+        }
+    },
+    {
+        "id": 146472,
+        "name": "Kissonerga",
+        "country": "CY",
+        "coord": {
+            "lon": 32.400002,
+            "lat": 34.825001
+        }
+    },
+    {
+        "id": 146490,
+        "name": "Khlorakas",
+        "country": "CY",
+        "coord": {
+            "lon": 32.408329,
+            "lat": 34.804169
+        }
+    },
+    {
+        "id": 146515,
+        "name": "Kato Pyrgos",
+        "country": "CY",
+        "coord": {
+            "lon": 32.682499,
+            "lat": 35.180279
+        }
+    },
+    {
+        "id": 146529,
+        "name": "Kato Dheftera",
+        "country": "CY",
+        "coord": {
+            "lon": 33.279171,
+            "lat": 35.087502
+        }
+    },
+    {
+        "id": 146628,
+        "name": "Erimi",
+        "country": "CY",
+        "coord": {
+            "lon": 32.916672,
+            "lat": 34.679169
+        }
+    },
+    {
+        "id": 146661,
+        "name": "Dherinia",
+        "country": "CY",
+        "coord": {
+            "lon": 33.958328,
+            "lat": 35.066669
+        }
+    },
+    {
+        "id": 146666,
+        "name": "Dhali",
+        "country": "CY",
+        "coord": {
+            "lon": 33.42083,
+            "lat": 35.025002
+        }
+    },
+    {
+        "id": 146692,
+        "name": "Ayios Tykhonas",
+        "country": "CY",
+        "coord": {
+            "lon": 33.14167,
+            "lat": 34.724998
+        }
+    },
+    {
+        "id": 146761,
+        "name": "Avgorou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.84029,
+            "lat": 35.03688
+        }
+    },
+    {
+        "id": 146767,
+        "name": "Athna",
+        "country": "CY",
+        "coord": {
+            "lon": 33.783329,
+            "lat": 35.058331
+        }
+    },
+    {
+        "id": 146768,
+        "name": "Athienou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.541672,
+            "lat": 35.066669
+        }
+    },
+    {
+        "id": 146770,
+        "name": "Astromeritis",
+        "country": "CY",
+        "coord": {
+            "lon": 33.037498,
+            "lat": 35.14167
+        }
+    },
+    {
+        "id": 146791,
+        "name": "Ergates",
+        "country": "CY",
+        "coord": {
+            "lon": 33.245831,
+            "lat": 35.054169
+        }
+    },
+    {
+        "id": 146796,
+        "name": "Aradhippou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.591671,
+            "lat": 34.950001
+        }
+    },
+    {
+        "id": 146797,
+        "name": "Aradhiou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.195831,
+            "lat": 35.04583
+        }
+    },
+    {
+        "id": 146834,
+        "name": "Alambra",
+        "country": "CY",
+        "coord": {
+            "lon": 33.400002,
+            "lat": 34.991669
+        }
+    },
+    {
+        "id": 146842,
+        "name": "Akhyritou",
+        "country": "CY",
+        "coord": {
+            "lon": 33.862499,
+            "lat": 35.099998
+        }
+    },
+    {
+        "id": 146850,
+        "name": "Akaki",
+        "country": "CY",
+        "coord": {
+            "lon": 33.129169,
+            "lat": 35.133331
+        }
+    },
+    {
+        "id": 414384,
+        "name": "Meniko",
+        "country": "CY",
+        "coord": {
+            "lon": 33.14167,
+            "lat": 35.10833
+        }
+    }
+]

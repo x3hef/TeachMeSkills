@@ -1,0 +1,299 @@
+[
+    {
+        "id": 2367252,
+        "name": "Bouvolem",
+        "country": "TG",
+        "coord": {
+            "lon": 1.08333,
+            "lat": 8.6
+        }
+    },
+    {
+        "id": 2364079,
+        "name": "Sotouboua",
+        "country": "TG",
+        "coord": {
+            "lon": 0.98333,
+            "lat": 8.56667
+        }
+    },
+    {
+        "id": 2597439,
+        "name": "R\u00e9gion de la Kara",
+        "country": "TG",
+        "coord": {
+            "lon": 0.91667,
+            "lat": 9.66667
+        }
+    },
+    {
+        "id": 2367164,
+        "name": "Dapaong",
+        "country": "TG",
+        "coord": {
+            "lon": 0.205,
+            "lat": 10.86389
+        }
+    },
+    {
+        "id": 2367886,
+        "name": "Atakpame",
+        "country": "TG",
+        "coord": {
+            "lon": 1.13333,
+            "lat": 7.53333
+        }
+    },
+    {
+        "id": 2365173,
+        "name": "R\u00e9gion Maritime",
+        "country": "TG",
+        "coord": {
+            "lon": 1.33333,
+            "lat": 6.5
+        }
+    },
+    {
+        "id": 2365975,
+        "name": "Klouts\u00e9 Kop\u00e9",
+        "country": "TG",
+        "coord": {
+            "lon": 1.29556,
+            "lat": 6.32417
+        }
+    },
+    {
+        "id": 2367563,
+        "name": "Bass\u00e9 Adjido",
+        "country": "TG",
+        "coord": {
+            "lon": 1.06667,
+            "lat": 7.35
+        }
+    },
+    {
+        "id": 2367237,
+        "name": "R\u00e9gion Centrale",
+        "country": "TG",
+        "coord": {
+            "lon": 1,
+            "lat": 8.66667
+        }
+    },
+    {
+        "id": 2366152,
+        "name": "Kara",
+        "country": "TG",
+        "coord": {
+            "lon": 1.18611,
+            "lat": 9.55111
+        }
+    },
+    {
+        "id": 2363686,
+        "name": "Togolese Republic",
+        "country": "TG",
+        "coord": {
+            "lon": 1.16667,
+            "lat": 8
+        }
+    },
+    {
+        "id": 2365266,
+        "name": "Lom\u00e9",
+        "country": "TG",
+        "coord": {
+            "lon": 1.00667,
+            "lat": 6.48861
+        }
+    },
+    {
+        "id": 2364041,
+        "name": "Tabligbo",
+        "country": "TG",
+        "coord": {
+            "lon": 1.5,
+            "lat": 6.58333
+        }
+    },
+    {
+        "id": 2365560,
+        "name": "Kpalime",
+        "country": "TG",
+        "coord": {
+            "lon": 0.63333,
+            "lat": 6.9
+        }
+    },
+    {
+        "id": 2364049,
+        "name": "Station M\u00e9t\u00e9o",
+        "country": "TG",
+        "coord": {
+            "lon": 1.25028,
+            "lat": 6.16889
+        }
+    },
+    {
+        "id": 2365742,
+        "name": "Kouka",
+        "country": "TG",
+        "coord": {
+            "lon": 1.1,
+            "lat": 9.76667
+        }
+    },
+    {
+        "id": 2363490,
+        "name": "Vogan",
+        "country": "TG",
+        "coord": {
+            "lon": 1.53333,
+            "lat": 6.33333
+        }
+    },
+    {
+        "id": 2363534,
+        "name": "Tsevie",
+        "country": "TG",
+        "coord": {
+            "lon": 1.21333,
+            "lat": 6.42611
+        }
+    },
+    {
+        "id": 2363908,
+        "name": "Tchamba",
+        "country": "TG",
+        "coord": {
+            "lon": 1.41667,
+            "lat": 9.03333
+        }
+    },
+    {
+        "id": 2364104,
+        "name": "Sokode",
+        "country": "TG",
+        "coord": {
+            "lon": 1.13333,
+            "lat": 8.98333
+        }
+    },
+    {
+        "id": 2364370,
+        "name": "R\u00e9gion des Plateaux",
+        "country": "TG",
+        "coord": {
+            "lon": 1.16667,
+            "lat": 7.5
+        }
+    },
+    {
+        "id": 2364752,
+        "name": "Notse",
+        "country": "TG",
+        "coord": {
+            "lon": 1.16667,
+            "lat": 6.95
+        }
+    },
+    {
+        "id": 2364812,
+        "name": "Niamtougou",
+        "country": "TG",
+        "coord": {
+            "lon": 1.10528,
+            "lat": 9.76806
+        }
+    },
+    {
+        "id": 2364205,
+        "name": "R\u00e9gion des Savanes",
+        "country": "TG",
+        "coord": {
+            "lon": 0.5,
+            "lat": 10.5
+        }
+    },
+    {
+        "id": 2365190,
+        "name": "Sansanne-Mango",
+        "country": "TG",
+        "coord": {
+            "lon": 0.47083,
+            "lat": 10.35917
+        }
+    },
+    {
+        "id": 2365267,
+        "name": "Lome",
+        "country": "TG",
+        "coord": {
+            "lon": 1.21227,
+            "lat": 6.13748
+        }
+    },
+    {
+        "id": 2367568,
+        "name": "Bassar",
+        "country": "TG",
+        "coord": {
+            "lon": 0.78333,
+            "lat": 9.25
+        }
+    },
+    {
+        "id": 2367656,
+        "name": "Bafilo",
+        "country": "TG",
+        "coord": {
+            "lon": 1.26667,
+            "lat": 9.35
+        }
+    },
+    {
+        "id": 2367660,
+        "name": "Badou",
+        "country": "TG",
+        "coord": {
+            "lon": 0.6,
+            "lat": 7.58333
+        }
+    },
+    {
+        "id": 2367990,
+        "name": "Aneho",
+        "country": "TG",
+        "coord": {
+            "lon": 1.6,
+            "lat": 6.23333
+        }
+    },
+    {
+        "id": 2365571,
+        "name": "Pagouda",
+        "country": "TG",
+        "coord": {
+            "lon": 1.32778,
+            "lat": 9.7525
+        }
+    },
+    {
+        "id": 2366168,
+        "name": "Kande",
+        "country": "TG",
+        "coord": {
+            "lon": 1.04472,
+            "lat": 9.95778
+        }
+    },
+    {
+        "id": 2368035,
+        "name": "Amlame",
+        "country": "TG",
+        "coord": {
+            "lon": 0.9,
+            "lat": 7.46667
+        }
+    }
+]

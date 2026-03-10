@@ -1,0 +1,488 @@
+[
+    {
+        "id": 288721,
+        "name": "Bidbid",
+        "country": "OM",
+        "coord": {
+            "lon": 58.1283,
+            "lat": 23.40786
+        }
+    },
+    {
+        "id": 288764,
+        "name": "Bawshar",
+        "country": "OM",
+        "coord": {
+            "lon": 58.398899,
+            "lat": 23.55563
+        }
+    },
+    {
+        "id": 288902,
+        "name": "Badiyah",
+        "country": "OM",
+        "coord": {
+            "lon": 58.799999,
+            "lat": 22.450001
+        }
+    },
+    {
+        "id": 288955,
+        "name": "As Suwayq",
+        "country": "OM",
+        "coord": {
+            "lon": 57.43861,
+            "lat": 23.84944
+        }
+    },
+    {
+        "id": 411742,
+        "name": "Mu\u1e29\u0101faz\u0327at Z\u0327uf\u0101r",
+        "country": "OM",
+        "coord": {
+            "lon": 54.066669,
+            "lat": 18.383329
+        }
+    },
+    {
+        "id": 288131,
+        "name": "\u1e28al\u016bf",
+        "country": "OM",
+        "coord": {
+            "lon": 53.96524,
+            "lat": 17.354679
+        }
+    },
+    {
+        "id": 286281,
+        "name": "Suhaylah",
+        "country": "OM",
+        "coord": {
+            "lon": 56.371059,
+            "lat": 24.267891
+        }
+    },
+    {
+        "id": 286245,
+        "name": "Sur",
+        "country": "OM",
+        "coord": {
+            "lon": 59.528889,
+            "lat": 22.566669
+        }
+    },
+    {
+        "id": 286293,
+        "name": "Sufalat Samail",
+        "country": "OM",
+        "coord": {
+            "lon": 58.01667,
+            "lat": 23.316669
+        }
+    },
+    {
+        "id": 286402,
+        "name": "Shinas",
+        "country": "OM",
+        "coord": {
+            "lon": 56.465832,
+            "lat": 24.74333
+        }
+    },
+    {
+        "id": 287814,
+        "name": "Izki",
+        "country": "OM",
+        "coord": {
+            "lon": 57.76667,
+            "lat": 22.933331
+        }
+    },
+    {
+        "id": 287830,
+        "name": "Ibri",
+        "country": "OM",
+        "coord": {
+            "lon": 56.51572,
+            "lat": 23.225731
+        }
+    },
+    {
+        "id": 288789,
+        "name": "Barka",
+        "country": "OM",
+        "coord": {
+            "lon": 57.88908,
+            "lat": 23.70739
+        }
+    },
+    {
+        "id": 288899,
+        "name": "Bahla",
+        "country": "OM",
+        "coord": {
+            "lon": 57.29958,
+            "lat": 22.973391
+        }
+    },
+    {
+        "id": 288967,
+        "name": "As Sib al Jadidah",
+        "country": "OM",
+        "coord": {
+            "lon": 58.18911,
+            "lat": 23.670271
+        }
+    },
+    {
+        "id": 289011,
+        "name": "Ar Rustaq",
+        "country": "OM",
+        "coord": {
+            "lon": 57.424438,
+            "lat": 23.390829
+        }
+    },
+    {
+        "id": 289174,
+        "name": "Al Liwa",
+        "country": "OM",
+        "coord": {
+            "lon": 56.565559,
+            "lat": 24.53611
+        }
+    },
+    {
+        "id": 289199,
+        "name": "Al Khaburah",
+        "country": "OM",
+        "coord": {
+            "lon": 57.098381,
+            "lat": 23.98864
+        }
+    },
+    {
+        "id": 289317,
+        "name": "Al Buraymi",
+        "country": "OM",
+        "coord": {
+            "lon": 55.793121,
+            "lat": 24.250879
+        }
+    },
+    {
+        "id": 411849,
+        "name": "Yanqul",
+        "country": "OM",
+        "coord": {
+            "lon": 56.550079,
+            "lat": 23.590509
+        }
+    },
+    {
+        "id": 286963,
+        "name": "Sultanate of Oman",
+        "country": "OM",
+        "coord": {
+            "lon": 57,
+            "lat": 21
+        }
+    },
+    {
+        "id": 411737,
+        "name": "Al Min\u0163aqah al Wus\u0163\u00e1",
+        "country": "OM",
+        "coord": {
+            "lon": 56.283329,
+            "lat": 19.950001
+        }
+    },
+    {
+        "id": 287939,
+        "name": "Hayma",
+        "country": "OM",
+        "coord": {
+            "lon": 56.316669,
+            "lat": 19.933331
+        }
+    },
+    {
+        "id": 411739,
+        "name": "Min\u0163aqat az\u0327 Z\u0327\u0101hirah",
+        "country": "OM",
+        "coord": {
+            "lon": 56.585232,
+            "lat": 22.93368
+        }
+    },
+    {
+        "id": 289212,
+        "name": "Al Jib\u0101l",
+        "country": "OM",
+        "coord": {
+            "lon": 56.01619,
+            "lat": 22.14431
+        }
+    },
+    {
+        "id": 289415,
+        "name": "Afl\u0101j",
+        "country": "OM",
+        "coord": {
+            "lon": 58.213249,
+            "lat": 22.383881
+        }
+    },
+    {
+        "id": 288239,
+        "name": "Ghubrat \u0162an\u016bf",
+        "country": "OM",
+        "coord": {
+            "lon": 57.41153,
+            "lat": 23.04838
+        }
+    },
+    {
+        "id": 411720,
+        "name": "Mu\u2018 askar \u2018Ibr\u012b",
+        "country": "OM",
+        "coord": {
+            "lon": 56.434052,
+            "lat": 23.195511
+        }
+    },
+    {
+        "id": 287241,
+        "name": "Mazra\u2018 Khu\u015fayyin",
+        "country": "OM",
+        "coord": {
+            "lon": 58.14333,
+            "lat": 23.37361
+        }
+    },
+    {
+        "id": 411740,
+        "name": "Mu\u1e29\u0101faz\u0327at Masqa\u0163",
+        "country": "OM",
+        "coord": {
+            "lon": 58.51667,
+            "lat": 23.5
+        }
+    },
+    {
+        "id": 287286,
+        "name": "Muscat",
+        "country": "OM",
+        "coord": {
+            "lon": 58.592201,
+            "lat": 23.613871
+        }
+    },
+    {
+        "id": 286621,
+        "name": "Salalah",
+        "country": "OM",
+        "coord": {
+            "lon": 54.092369,
+            "lat": 17.015051
+        }
+    },
+    {
+        "id": 411736,
+        "name": "Min\u0163aqat al B\u0101\u0163inah",
+        "country": "OM",
+        "coord": {
+            "lon": 57,
+            "lat": 23.75
+        }
+    },
+    {
+        "id": 286282,
+        "name": "Al Sohar",
+        "country": "OM",
+        "coord": {
+            "lon": 56.746811,
+            "lat": 24.3643
+        }
+    },
+    {
+        "id": 411735,
+        "name": "Al Min\u0163aqah ad D\u0101khil\u012byah",
+        "country": "OM",
+        "coord": {
+            "lon": 57.533329,
+            "lat": 22.4
+        }
+    },
+    {
+        "id": 286987,
+        "name": "Nizwa",
+        "country": "OM",
+        "coord": {
+            "lon": 57.533329,
+            "lat": 22.933331
+        }
+    },
+    {
+        "id": 286239,
+        "name": "S\u016br Y\u0101l B\u016b Rash\u012bd",
+        "country": "OM",
+        "coord": {
+            "lon": 57.263611,
+            "lat": 23.881109
+        }
+    },
+    {
+        "id": 411738,
+        "name": "Al Min\u0163aqah ash Sharq\u012byah",
+        "country": "OM",
+        "coord": {
+            "lon": 58.549999,
+            "lat": 22
+        }
+    },
+    {
+        "id": 287832,
+        "name": "Ibra",
+        "country": "OM",
+        "coord": {
+            "lon": 58.533371,
+            "lat": 22.690571
+        }
+    },
+    {
+        "id": 286647,
+        "name": "Saham",
+        "country": "OM",
+        "coord": {
+            "lon": 56.888611,
+            "lat": 24.17222
+        }
+    },
+    {
+        "id": 287218,
+        "name": "Mirb\u0101\u0163",
+        "country": "OM",
+        "coord": {
+            "lon": 54.690632,
+            "lat": 16.99638
+        }
+    },
+    {
+        "id": 289433,
+        "name": "Adam",
+        "country": "OM",
+        "coord": {
+            "lon": 57.523338,
+            "lat": 22.375601
+        }
+    },
+    {
+        "id": 411741,
+        "name": "Mu\u1e29\u0101faz\u0327at Musandam",
+        "country": "OM",
+        "coord": {
+            "lon": 56.26667,
+            "lat": 25.950001
+        }
+    },
+    {
+        "id": 287614,
+        "name": "Khasab",
+        "country": "OM",
+        "coord": {
+            "lon": 56.247742,
+            "lat": 26.17993
+        }
+    },
+    {
+        "id": 286140,
+        "name": "Thamar\u012bt",
+        "country": "OM",
+        "coord": {
+            "lon": 54.033329,
+            "lat": 17.67
+        }
+    },
+    {
+        "id": 288712,
+        "name": "Bil\u0101d a\u015f \u015e\u016br",
+        "country": "OM",
+        "coord": {
+            "lon": 59.484871,
+            "lat": 22.55283
+        }
+    },
+    {
+        "id": 7630442,
+        "name": "A\u015f \u015eal\u0101lah al Jad\u012bdah",
+        "country": "OM",
+        "coord": {
+            "lon": 54.099201,
+            "lat": 17.01882
+        }
+    },
+    {
+        "id": 288602,
+        "name": "Camp",
+        "country": "OM",
+        "coord": {
+            "lon": 58.883331,
+            "lat": 20.66667
+        }
+    },
+    {
+        "id": 388692,
+        "name": "\u2018Ashub",
+        "country": "OM",
+        "coord": {
+            "lon": 56.231392,
+            "lat": 26.1675
+        }
+    },
+    {
+        "id": 7110710,
+        "name": "Mu\u1e29\u0101faz\u0327at al Buraym\u012b",
+        "country": "OM",
+        "coord": {
+            "lon": 56.100269,
+            "lat": 24.10014
+        }
+    },
+    {
+        "id": 288979,
+        "name": "A\u015f \u015ea\u2018arah",
+        "country": "OM",
+        "coord": {
+            "lon": 55.78389,
+            "lat": 24.25
+        }
+    },
+    {
+        "id": 288507,
+        "name": "Dib Dibba",
+        "country": "OM",
+        "coord": {
+            "lon": 56.257778,
+            "lat": 26.197781
+        }
+    },
+    {
+        "id": 289142,
+        "name": "Al Qabil",
+        "country": "OM",
+        "coord": {
+            "lon": 58.694721,
+            "lat": 22.570999
+        }
+    },
+    {
+        "id": 412084,
+        "name": "Bayt al Awabi",
+        "country": "OM",
+        "coord": {
+            "lon": 57.52459,
+            "lat": 23.30324
+        }
+    }
+]

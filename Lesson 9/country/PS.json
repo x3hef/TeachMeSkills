@@ -1,0 +1,2936 @@
+[
+    {
+        "id": 281109,
+        "name": "An Nusayrat",
+        "country": "PS",
+        "coord": {
+            "lon": 34.392502,
+            "lat": 31.44861
+        }
+    },
+    {
+        "id": 281146,
+        "name": "Bayt Hanun",
+        "country": "PS",
+        "coord": {
+            "lon": 34.535789,
+            "lat": 31.535299
+        }
+    },
+    {
+        "id": 281161,
+        "name": "Al Burayj",
+        "country": "PS",
+        "coord": {
+            "lon": 34.403061,
+            "lat": 31.43944
+        }
+    },
+    {
+        "id": 283806,
+        "name": "Halhul",
+        "country": "PS",
+        "coord": {
+            "lon": 35.105438,
+            "lat": 31.578581
+        }
+    },
+    {
+        "id": 284431,
+        "name": "Bani Naim",
+        "country": "PS",
+        "coord": {
+            "lon": 35.164162,
+            "lat": 31.515909
+        }
+    },
+    {
+        "id": 284446,
+        "name": "Balatah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.28561,
+            "lat": 32.21207
+        }
+    },
+    {
+        "id": 284486,
+        "name": "Az Zahiriyah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.973289,
+            "lat": 31.40967
+        }
+    },
+    {
+        "id": 285108,
+        "name": "Al Birah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.220612,
+            "lat": 31.907209
+        }
+    },
+    {
+        "id": 284555,
+        "name": "A\u0163 \u0162\u016br",
+        "country": "PS",
+        "coord": {
+            "lon": 35.249329,
+            "lat": 31.782721
+        }
+    },
+    {
+        "id": 285153,
+        "name": "West Bank",
+        "country": "PS",
+        "coord": {
+            "lon": 35.25,
+            "lat": 31.66667
+        }
+    },
+    {
+        "id": 282340,
+        "name": "Qiryat Arba\u2018",
+        "country": "PS",
+        "coord": {
+            "lon": 35.118969,
+            "lat": 31.528379
+        }
+    },
+    {
+        "id": 282830,
+        "name": "Maskiyyot",
+        "country": "PS",
+        "coord": {
+            "lon": 35.5,
+            "lat": 32.316669
+        }
+    },
+    {
+        "id": 285094,
+        "name": "Al \u1e28aram ash Shar\u012bf",
+        "country": "PS",
+        "coord": {
+            "lon": 35.23333,
+            "lat": 31.783331
+        }
+    },
+    {
+        "id": 281141,
+        "name": "Dayr al Balah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.345249,
+            "lat": 31.41655
+        }
+    },
+    {
+        "id": 281581,
+        "name": "Tubas",
+        "country": "PS",
+        "coord": {
+            "lon": 35.369888,
+            "lat": 32.320911
+        }
+    },
+    {
+        "id": 282476,
+        "name": "Qabatiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.288231,
+            "lat": 32.412552
+        }
+    },
+    {
+        "id": 283621,
+        "name": "Idhna",
+        "country": "PS",
+        "coord": {
+            "lon": 34.974361,
+            "lat": 31.558741
+        }
+    },
+    {
+        "id": 284324,
+        "name": "Bayt Jala",
+        "country": "PS",
+        "coord": {
+            "lon": 35.187881,
+            "lat": 31.71545
+        }
+    },
+    {
+        "id": 284999,
+        "name": "Al Yamun",
+        "country": "PS",
+        "coord": {
+            "lon": 35.2267,
+            "lat": 32.4846
+        }
+    },
+    {
+        "id": 6967990,
+        "name": "Az Zuwaydah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.380531,
+            "lat": 31.439541
+        }
+    },
+    {
+        "id": 6254930,
+        "name": "Palestine",
+        "country": "PS",
+        "coord": {
+            "lon": 35.203289,
+            "lat": 31.92157
+        }
+    },
+    {
+        "id": 281132,
+        "name": "Gaza Strip",
+        "country": "PS",
+        "coord": {
+            "lon": 34.333328,
+            "lat": 31.41667
+        }
+    },
+    {
+        "id": 282615,
+        "name": "Nablus",
+        "country": "PS",
+        "coord": {
+            "lon": 35.25444,
+            "lat": 32.221111
+        }
+    },
+    {
+        "id": 8073072,
+        "name": "\u2018Ayn S\u0101rah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.09882,
+            "lat": 31.536489
+        }
+    },
+    {
+        "id": 7890366,
+        "name": "Khallat Hamamah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.192429,
+            "lat": 31.7216
+        }
+    },
+    {
+        "id": 281102,
+        "name": "Rafah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.259521,
+            "lat": 31.287001
+        }
+    },
+    {
+        "id": 281124,
+        "name": "Khan Yunis",
+        "country": "PS",
+        "coord": {
+            "lon": 34.306271,
+            "lat": 31.340179
+        }
+    },
+    {
+        "id": 281129,
+        "name": "Jabalya",
+        "country": "PS",
+        "coord": {
+            "lon": 34.48634,
+            "lat": 31.52722
+        }
+    },
+    {
+        "id": 281133,
+        "name": "Gaza",
+        "country": "PS",
+        "coord": {
+            "lon": 34.466671,
+            "lat": 31.5
+        }
+    },
+    {
+        "id": 281145,
+        "name": "Bayt Lahya",
+        "country": "PS",
+        "coord": {
+            "lon": 34.49514,
+            "lat": 31.5464
+        }
+    },
+    {
+        "id": 281148,
+        "name": "Bani Suhayla",
+        "country": "PS",
+        "coord": {
+            "lon": 34.323372,
+            "lat": 31.34337
+        }
+    },
+    {
+        "id": 281165,
+        "name": "Abasan al Kabirah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.34005,
+            "lat": 31.31913
+        }
+    },
+    {
+        "id": 281292,
+        "name": "Yuta",
+        "country": "PS",
+        "coord": {
+            "lon": 35.083328,
+            "lat": 31.450001
+        }
+    },
+    {
+        "id": 281577,
+        "name": "Tulkarm",
+        "country": "PS",
+        "coord": {
+            "lon": 35.028629,
+            "lat": 32.310371
+        }
+    },
+    {
+        "id": 281793,
+        "name": "Sair",
+        "country": "PS",
+        "coord": {
+            "lon": 35.140171,
+            "lat": 31.57855
+        }
+    },
+    {
+        "id": 282239,
+        "name": "Ramallah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.184589,
+            "lat": 31.89502
+        }
+    },
+    {
+        "id": 282457,
+        "name": "Qalqilyah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.970341,
+            "lat": 32.18924
+        }
+    },
+    {
+        "id": 283506,
+        "name": "Janin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.295101,
+            "lat": 32.458839
+        }
+    },
+    {
+        "id": 284011,
+        "name": "Dura",
+        "country": "PS",
+        "coord": {
+            "lon": 35.02652,
+            "lat": 31.507
+        }
+    },
+    {
+        "id": 284315,
+        "name": "Bethlehem",
+        "country": "PS",
+        "coord": {
+            "lon": 35.200321,
+            "lat": 31.70619
+        }
+    },
+    {
+        "id": 284583,
+        "name": "As Samu",
+        "country": "PS",
+        "coord": {
+            "lon": 35.066109,
+            "lat": 31.396709
+        }
+    },
+    {
+        "id": 284890,
+        "name": "Ar Ram wa Dahiyat al Barid",
+        "country": "PS",
+        "coord": {
+            "lon": 35.23402,
+            "lat": 31.855391
+        }
+    },
+    {
+        "id": 284899,
+        "name": "Jericho",
+        "country": "PS",
+        "coord": {
+            "lon": 35.450001,
+            "lat": 31.866671
+        }
+    },
+    {
+        "id": 285066,
+        "name": "Hebron",
+        "country": "PS",
+        "coord": {
+            "lon": 35.099998,
+            "lat": 31.533331
+        }
+    },
+    {
+        "id": 285111,
+        "name": "Al Ayzariyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.269161,
+            "lat": 31.770781
+        }
+    },
+    {
+        "id": 6967865,
+        "name": "Al Qararah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.340851,
+            "lat": 31.37389
+        }
+    },
+    {
+        "id": 7303419,
+        "name": "East Jerusalem",
+        "country": "PS",
+        "coord": {
+            "lon": 35.233879,
+            "lat": 31.78336
+        }
+    },
+    {
+        "id": 281093,
+        "name": "Shukat as Sufi",
+        "country": "PS",
+        "coord": {
+            "lon": 34.2826,
+            "lat": 31.25997
+        }
+    },
+    {
+        "id": 281119,
+        "name": "Khuzaah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.361099,
+            "lat": 31.306749
+        }
+    },
+    {
+        "id": 281160,
+        "name": "Al Fukhkhari",
+        "country": "PS",
+        "coord": {
+            "lon": 34.330608,
+            "lat": 31.29278
+        }
+    },
+    {
+        "id": 281207,
+        "name": "Zububa.h",
+        "country": "PS",
+        "coord": {
+            "lon": 35.22274,
+            "lat": 32.543461
+        }
+    },
+    {
+        "id": 281226,
+        "name": "Zayta",
+        "country": "PS",
+        "coord": {
+            "lon": 35.05122,
+            "lat": 32.385601
+        }
+    },
+    {
+        "id": 281227,
+        "name": "Zayta Jammain",
+        "country": "PS",
+        "coord": {
+            "lon": 35.185951,
+            "lat": 32.136978
+        }
+    },
+    {
+        "id": 281236,
+        "name": "Zawata",
+        "country": "PS",
+        "coord": {
+            "lon": 35.226501,
+            "lat": 32.246101
+        }
+    },
+    {
+        "id": 281240,
+        "name": "Zatarah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.256618,
+            "lat": 31.673611
+        }
+    },
+    {
+        "id": 281293,
+        "name": "Yatma",
+        "country": "PS",
+        "coord": {
+            "lon": 35.269089,
+            "lat": 32.108891
+        }
+    },
+    {
+        "id": 281295,
+        "name": "Yasuf",
+        "country": "PS",
+        "coord": {
+            "lon": 35.237839,
+            "lat": 32.10841
+        }
+    },
+    {
+        "id": 281297,
+        "name": "Yasid",
+        "country": "PS",
+        "coord": {
+            "lon": 35.277569,
+            "lat": 32.296879
+        }
+    },
+    {
+        "id": 281318,
+        "name": "Yabad",
+        "country": "PS",
+        "coord": {
+            "lon": 35.168221,
+            "lat": 32.44566
+        }
+    },
+    {
+        "id": 281356,
+        "name": "Wadi Fukin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.103661,
+            "lat": 31.70702
+        }
+    },
+    {
+        "id": 281408,
+        "name": "Urif",
+        "country": "PS",
+        "coord": {
+            "lon": 35.222279,
+            "lat": 32.159489
+        }
+    },
+    {
+        "id": 281548,
+        "name": "Udalah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.276459,
+            "lat": 32.153629
+        }
+    },
+    {
+        "id": 281560,
+        "name": "Turmusayya",
+        "country": "PS",
+        "coord": {
+            "lon": 35.285641,
+            "lat": 32.035381
+        }
+    },
+    {
+        "id": 281623,
+        "name": "Tayasir",
+        "country": "PS",
+        "coord": {
+            "lon": 35.396042,
+            "lat": 32.34042
+        }
+    },
+    {
+        "id": 281637,
+        "name": "Tarqumya",
+        "country": "PS",
+        "coord": {
+            "lon": 35.01223,
+            "lat": 31.57551
+        }
+    },
+    {
+        "id": 281657,
+        "name": "Tammun",
+        "country": "PS",
+        "coord": {
+            "lon": 35.383671,
+            "lat": 32.28347
+        }
+    },
+    {
+        "id": 281662,
+        "name": "Talluzah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.29496,
+            "lat": 32.270561
+        }
+    },
+    {
+        "id": 281674,
+        "name": "Till",
+        "country": "PS",
+        "coord": {
+            "lon": 35.212929,
+            "lat": 32.20068
+        }
+    },
+    {
+        "id": 281675,
+        "name": "Talfit",
+        "country": "PS",
+        "coord": {
+            "lon": 35.290939,
+            "lat": 32.086639
+        }
+    },
+    {
+        "id": 281690,
+        "name": "Taffuh",
+        "country": "PS",
+        "coord": {
+            "lon": 35.04966,
+            "lat": 31.538549
+        }
+    },
+    {
+        "id": 281715,
+        "name": "Surif",
+        "country": "PS",
+        "coord": {
+            "lon": 35.064388,
+            "lat": 31.65078
+        }
+    },
+    {
+        "id": 281716,
+        "name": "Surda",
+        "country": "PS",
+        "coord": {
+            "lon": 35.203209,
+            "lat": 31.93709
+        }
+    },
+    {
+        "id": 281764,
+        "name": "Siris",
+        "country": "PS",
+        "coord": {
+            "lon": 35.29134,
+            "lat": 32.328281
+        }
+    },
+    {
+        "id": 281778,
+        "name": "Sinjil",
+        "country": "PS",
+        "coord": {
+            "lon": 35.26545,
+            "lat": 32.03334
+        }
+    },
+    {
+        "id": 281789,
+        "name": "Silwad",
+        "country": "PS",
+        "coord": {
+            "lon": 35.261299,
+            "lat": 31.97625
+        }
+    },
+    {
+        "id": 281790,
+        "name": "Silat az Zahr",
+        "country": "PS",
+        "coord": {
+            "lon": 35.184181,
+            "lat": 32.31934
+        }
+    },
+    {
+        "id": 281791,
+        "name": "Silat al Harithiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.22752,
+            "lat": 32.508469
+        }
+    },
+    {
+        "id": 281808,
+        "name": "Shuqba",
+        "country": "PS",
+        "coord": {
+            "lon": 35.040119,
+            "lat": 31.986959
+        }
+    },
+    {
+        "id": 281819,
+        "name": "Shufah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.081348,
+            "lat": 32.275509
+        }
+    },
+    {
+        "id": 281965,
+        "name": "Sayda",
+        "country": "PS",
+        "coord": {
+            "lon": 35.118561,
+            "lat": 32.384892
+        }
+    },
+    {
+        "id": 281979,
+        "name": "Sartah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.09198,
+            "lat": 32.104469
+        }
+    },
+    {
+        "id": 281982,
+        "name": "Sarrah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.191471,
+            "lat": 32.209702
+        }
+    },
+    {
+        "id": 281997,
+        "name": "Sanur",
+        "country": "PS",
+        "coord": {
+            "lon": 35.245369,
+            "lat": 32.356079
+        }
+    },
+    {
+        "id": 281998,
+        "name": "Sannirya",
+        "country": "PS",
+        "coord": {
+            "lon": 35.04652,
+            "lat": 32.128769
+        }
+    },
+    {
+        "id": 282034,
+        "name": "Salim",
+        "country": "PS",
+        "coord": {
+            "lon": 35.330341,
+            "lat": 32.209621
+        }
+    },
+    {
+        "id": 282039,
+        "name": "Salfit",
+        "country": "PS",
+        "coord": {
+            "lon": 35.18079,
+            "lat": 32.083698
+        }
+    },
+    {
+        "id": 282069,
+        "name": "Saffa",
+        "country": "PS",
+        "coord": {
+            "lon": 35.06094,
+            "lat": 31.90563
+        }
+    },
+    {
+        "id": 282108,
+        "name": "Sabastiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.19873,
+            "lat": 32.27562
+        }
+    },
+    {
+        "id": 282119,
+        "name": "Rummanah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.2048,
+            "lat": 32.524509
+        }
+    },
+    {
+        "id": 282140,
+        "name": "Rujayb",
+        "country": "PS",
+        "coord": {
+            "lon": 35.29332,
+            "lat": 32.190609
+        }
+    },
+    {
+        "id": 282185,
+        "name": "Ras Karkar",
+        "country": "PS",
+        "coord": {
+            "lon": 35.107731,
+            "lat": 31.9424
+        }
+    },
+    {
+        "id": 282230,
+        "name": "Rantis",
+        "country": "PS",
+        "coord": {
+            "lon": 35.018791,
+            "lat": 32.027969
+        }
+    },
+    {
+        "id": 282234,
+        "name": "Rammun",
+        "country": "PS",
+        "coord": {
+            "lon": 35.298222,
+            "lat": 31.93342
+        }
+    },
+    {
+        "id": 282237,
+        "name": "Ramin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.149509,
+            "lat": 32.285198
+        }
+    },
+    {
+        "id": 282264,
+        "name": "Rafat",
+        "country": "PS",
+        "coord": {
+            "lon": 35.04417,
+            "lat": 32.07806
+        }
+    },
+    {
+        "id": 282265,
+        "name": "Rafat",
+        "country": "PS",
+        "coord": {
+            "lon": 35.191818,
+            "lat": 31.87096
+        }
+    },
+    {
+        "id": 282278,
+        "name": "Raba",
+        "country": "PS",
+        "coord": {
+            "lon": 35.38298,
+            "lat": 32.38678
+        }
+    },
+    {
+        "id": 282283,
+        "name": "Qusrah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.330051,
+            "lat": 32.08543
+        }
+    },
+    {
+        "id": 282284,
+        "name": "Qusin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.182968,
+            "lat": 32.238289
+        }
+    },
+    {
+        "id": 282342,
+        "name": "Qirah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.17173,
+            "lat": 32.122139
+        }
+    },
+    {
+        "id": 282348,
+        "name": "Qibye",
+        "country": "PS",
+        "coord": {
+            "lon": 35.009838,
+            "lat": 31.977341
+        }
+    },
+    {
+        "id": 282376,
+        "name": "Qatanne",
+        "country": "PS",
+        "coord": {
+            "lon": 35.118938,
+            "lat": 31.83366
+        }
+    },
+    {
+        "id": 282423,
+        "name": "Qaryut",
+        "country": "PS",
+        "coord": {
+            "lon": 35.294319,
+            "lat": 32.070042
+        }
+    },
+    {
+        "id": 282438,
+        "name": "Qarawat Bani Zayd",
+        "country": "PS",
+        "coord": {
+            "lon": 35.129082,
+            "lat": 32.054699
+        }
+    },
+    {
+        "id": 282439,
+        "name": "Qarawat Bani Hasan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.100609,
+            "lat": 32.125679
+        }
+    },
+    {
+        "id": 282461,
+        "name": "Qalandiya",
+        "country": "PS",
+        "coord": {
+            "lon": 35.20816,
+            "lat": 31.86289
+        }
+    },
+    {
+        "id": 282463,
+        "name": "Qaffin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.082661,
+            "lat": 32.432739
+        }
+    },
+    {
+        "id": 282477,
+        "name": "Qabalan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.289379,
+            "lat": 32.101822
+        }
+    },
+    {
+        "id": 282510,
+        "name": "Nuba",
+        "country": "PS",
+        "coord": {
+            "lon": 35.03455,
+            "lat": 31.608999
+        }
+    },
+    {
+        "id": 282529,
+        "name": "Nilin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.020309,
+            "lat": 31.94746
+        }
+    },
+    {
+        "id": 282540,
+        "name": "Nazlat Isa",
+        "country": "PS",
+        "coord": {
+            "lon": 35.05888,
+            "lat": 32.415619
+        }
+    },
+    {
+        "id": 282593,
+        "name": "Nahhalin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.120811,
+            "lat": 31.685591
+        }
+    },
+    {
+        "id": 282687,
+        "name": "Mikhmas",
+        "country": "PS",
+        "coord": {
+            "lon": 35.275959,
+            "lat": 31.872101
+        }
+    },
+    {
+        "id": 282740,
+        "name": "Misliyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.2878,
+            "lat": 32.386131
+        }
+    },
+    {
+        "id": 282746,
+        "name": "Mirkah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.238071,
+            "lat": 32.395828
+        }
+    },
+    {
+        "id": 282783,
+        "name": "Bani Zayd ash Sharqiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.165932,
+            "lat": 32.049351
+        }
+    },
+    {
+        "id": 282793,
+        "name": "Maythalun",
+        "country": "PS",
+        "coord": {
+            "lon": 35.27446,
+            "lat": 32.34798
+        }
+    },
+    {
+        "id": 282837,
+        "name": "Mashah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.050961,
+            "lat": 32.10828
+        }
+    },
+    {
+        "id": 282872,
+        "name": "Marda",
+        "country": "PS",
+        "coord": {
+            "lon": 35.195358,
+            "lat": 32.113811
+        }
+    },
+    {
+        "id": 282941,
+        "name": "Majdal Bani Fadil",
+        "country": "PS",
+        "coord": {
+            "lon": 35.363781,
+            "lat": 32.083569
+        }
+    },
+    {
+        "id": 282980,
+        "name": "Madama",
+        "country": "PS",
+        "coord": {
+            "lon": 35.23114,
+            "lat": 32.185879
+        }
+    },
+    {
+        "id": 282997,
+        "name": "Al Lubban ash Sharqiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.240299,
+            "lat": 32.07011
+        }
+    },
+    {
+        "id": 283040,
+        "name": "Kufayrit",
+        "country": "PS",
+        "coord": {
+            "lon": 35.201839,
+            "lat": 32.443802
+        }
+    },
+    {
+        "id": 283055,
+        "name": "Kifil Haris",
+        "country": "PS",
+        "coord": {
+            "lon": 35.157188,
+            "lat": 32.118271
+        }
+    },
+    {
+        "id": 283077,
+        "name": "Ar Ramadin",
+        "country": "PS",
+        "coord": {
+            "lon": 34.91246,
+            "lat": 31.37952
+        }
+    },
+    {
+        "id": 283096,
+        "name": "Qalqas",
+        "country": "PS",
+        "coord": {
+            "lon": 35.095348,
+            "lat": 31.492121
+        }
+    },
+    {
+        "id": 283099,
+        "name": "Imrish",
+        "country": "PS",
+        "coord": {
+            "lon": 35.00819,
+            "lat": 31.46895
+        }
+    },
+    {
+        "id": 283101,
+        "name": "Marah Rabbah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.186878,
+            "lat": 31.63406
+        }
+    },
+    {
+        "id": 283120,
+        "name": "Dayr al Asal al Fawqa",
+        "country": "PS",
+        "coord": {
+            "lon": 34.93832,
+            "lat": 31.468321
+        }
+    },
+    {
+        "id": 283123,
+        "name": "Bayt Tamar",
+        "country": "PS",
+        "coord": {
+            "lon": 35.239861,
+            "lat": 31.67927
+        }
+    },
+    {
+        "id": 283128,
+        "name": "Bayt Hasan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.404072,
+            "lat": 32.237598
+        }
+    },
+    {
+        "id": 283129,
+        "name": "Bayt Awwa",
+        "country": "PS",
+        "coord": {
+            "lon": 34.949379,
+            "lat": 31.509109
+        }
+    },
+    {
+        "id": 283133,
+        "name": "Jannatah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.219608,
+            "lat": 31.66958
+        }
+    },
+    {
+        "id": 283142,
+        "name": "Ash Shaykh Sad",
+        "country": "PS",
+        "coord": {
+            "lon": 35.25742,
+            "lat": 31.737209
+        }
+    },
+    {
+        "id": 283155,
+        "name": "An Nassariyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.387112,
+            "lat": 32.236469
+        }
+    },
+    {
+        "id": 283157,
+        "name": "Kharbatha al Misbah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.07185,
+            "lat": 31.88546
+        }
+    },
+    {
+        "id": 283159,
+        "name": "Al Majd",
+        "country": "PS",
+        "coord": {
+            "lon": 34.95108,
+            "lat": 31.48056
+        }
+    },
+    {
+        "id": 283165,
+        "name": "Karmah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.02689,
+            "lat": 31.45182
+        }
+    },
+    {
+        "id": 283176,
+        "name": "Al Burj",
+        "country": "PS",
+        "coord": {
+            "lon": 34.916969,
+            "lat": 31.43609
+        }
+    },
+    {
+        "id": 283180,
+        "name": "Shuyukh al Arrub",
+        "country": "PS",
+        "coord": {
+            "lon": 35.143661,
+            "lat": 31.61735
+        }
+    },
+    {
+        "id": 283189,
+        "name": "Khirbat Abu Falah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.30135,
+            "lat": 32.016781
+        }
+    },
+    {
+        "id": 283245,
+        "name": "Kharbatha Bani Harith",
+        "country": "PS",
+        "coord": {
+            "lon": 35.071941,
+            "lat": 31.94508
+        }
+    },
+    {
+        "id": 283246,
+        "name": "Kharas",
+        "country": "PS",
+        "coord": {
+            "lon": 35.04174,
+            "lat": 31.614799
+        }
+    },
+    {
+        "id": 283286,
+        "name": "Khallat al Mayyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.14286,
+            "lat": 31.442221
+        }
+    },
+    {
+        "id": 283316,
+        "name": "Kubar",
+        "country": "PS",
+        "coord": {
+            "lon": 35.157879,
+            "lat": 31.987221
+        }
+    },
+    {
+        "id": 283348,
+        "name": "Kafr Zibad",
+        "country": "PS",
+        "coord": {
+            "lon": 35.071789,
+            "lat": 32.225842
+        }
+    },
+    {
+        "id": 283351,
+        "name": "Kafr Thulth",
+        "country": "PS",
+        "coord": {
+            "lon": 35.046982,
+            "lat": 32.153301
+        }
+    },
+    {
+        "id": 283353,
+        "name": "Kafr Sur",
+        "country": "PS",
+        "coord": {
+            "lon": 35.063938,
+            "lat": 32.24366
+        }
+    },
+    {
+        "id": 283361,
+        "name": "Kafr Rai",
+        "country": "PS",
+        "coord": {
+            "lon": 35.15451,
+            "lat": 32.373981
+        }
+    },
+    {
+        "id": 283362,
+        "name": "Kafr Qud",
+        "country": "PS",
+        "coord": {
+            "lon": 35.22649,
+            "lat": 32.456612
+        }
+    },
+    {
+        "id": 283365,
+        "name": "Kafr Qallil",
+        "country": "PS",
+        "coord": {
+            "lon": 35.282841,
+            "lat": 32.193508
+        }
+    },
+    {
+        "id": 283366,
+        "name": "Kafr Qaddum",
+        "country": "PS",
+        "coord": {
+            "lon": 35.144711,
+            "lat": 32.221619
+        }
+    },
+    {
+        "id": 283370,
+        "name": "Kafr Malik",
+        "country": "PS",
+        "coord": {
+            "lon": 35.309319,
+            "lat": 31.9884
+        }
+    },
+    {
+        "id": 283373,
+        "name": "Kafr Jammal",
+        "country": "PS",
+        "coord": {
+            "lon": 35.043369,
+            "lat": 32.22551
+        }
+    },
+    {
+        "id": 283378,
+        "name": "Kafr Dan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.25425,
+            "lat": 32.478519
+        }
+    },
+    {
+        "id": 283379,
+        "name": "Kafr Ayn",
+        "country": "PS",
+        "coord": {
+            "lon": 35.12038,
+            "lat": 32.047581
+        }
+    },
+    {
+        "id": 283384,
+        "name": "Kafr al Labad",
+        "country": "PS",
+        "coord": {
+            "lon": 35.10955,
+            "lat": 32.299671
+        }
+    },
+    {
+        "id": 283385,
+        "name": "Kafr ad Dik",
+        "country": "PS",
+        "coord": {
+            "lon": 35.08287,
+            "lat": 32.067101
+        }
+    },
+    {
+        "id": 283386,
+        "name": "Kafr Abbush",
+        "country": "PS",
+        "coord": {
+            "lon": 35.085041,
+            "lat": 32.22353
+        }
+    },
+    {
+        "id": 283408,
+        "name": "Jurish",
+        "country": "PS",
+        "coord": {
+            "lon": 35.32188,
+            "lat": 32.101879
+        }
+    },
+    {
+        "id": 283419,
+        "name": "Jurat ash Shamah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.17001,
+            "lat": 31.650511
+        }
+    },
+    {
+        "id": 283444,
+        "name": "Al Judayyidah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.301079,
+            "lat": 32.335411
+        }
+    },
+    {
+        "id": 283449,
+        "name": "Jit",
+        "country": "PS",
+        "coord": {
+            "lon": 35.170811,
+            "lat": 32.21431
+        }
+    },
+    {
+        "id": 283464,
+        "name": "Jifna",
+        "country": "PS",
+        "coord": {
+            "lon": 35.213379,
+            "lat": 31.96192
+        }
+    },
+    {
+        "id": 283469,
+        "name": "Jayyus",
+        "country": "PS",
+        "coord": {
+            "lon": 35.034161,
+            "lat": 32.201248
+        }
+    },
+    {
+        "id": 283521,
+        "name": "Jammain",
+        "country": "PS",
+        "coord": {
+            "lon": 35.204041,
+            "lat": 32.131641
+        }
+    },
+    {
+        "id": 283536,
+        "name": "Jalqamus",
+        "country": "PS",
+        "coord": {
+            "lon": 35.364208,
+            "lat": 32.424641
+        }
+    },
+    {
+        "id": 283540,
+        "name": "Jalbun",
+        "country": "PS",
+        "coord": {
+            "lon": 35.415161,
+            "lat": 32.459572
+        }
+    },
+    {
+        "id": 283547,
+        "name": "Al Jalamah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.313171,
+            "lat": 32.508209
+        }
+    },
+    {
+        "id": 283570,
+        "name": "Jaba",
+        "country": "PS",
+        "coord": {
+            "lon": 35.221321,
+            "lat": 32.324089
+        }
+    },
+    {
+        "id": 283571,
+        "name": "Jaba",
+        "country": "PS",
+        "coord": {
+            "lon": 35.258678,
+            "lat": 31.857269
+        }
+    },
+    {
+        "id": 283609,
+        "name": "Immatin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.15836,
+            "lat": 32.191639
+        }
+    },
+    {
+        "id": 283612,
+        "name": "Illar",
+        "country": "PS",
+        "coord": {
+            "lon": 35.107079,
+            "lat": 32.370239
+        }
+    },
+    {
+        "id": 283614,
+        "name": "Iktabah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.05262,
+            "lat": 32.326599
+        }
+    },
+    {
+        "id": 283636,
+        "name": "Huwwarah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.256729,
+            "lat": 32.152241
+        }
+    },
+    {
+        "id": 283643,
+        "name": "Husan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.13475,
+            "lat": 31.709311
+        }
+    },
+    {
+        "id": 283676,
+        "name": "Hizma",
+        "country": "PS",
+        "coord": {
+            "lon": 35.263149,
+            "lat": 31.83337
+        }
+    },
+    {
+        "id": 283735,
+        "name": "Haris",
+        "country": "PS",
+        "coord": {
+            "lon": 35.141918,
+            "lat": 32.114239
+        }
+    },
+    {
+        "id": 283812,
+        "name": "Hajjah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.130772,
+            "lat": 32.204269
+        }
+    },
+    {
+        "id": 283843,
+        "name": "Hablah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.977482,
+            "lat": 32.16523
+        }
+    },
+    {
+        "id": 283918,
+        "name": "Farun",
+        "country": "PS",
+        "coord": {
+            "lon": 35.023258,
+            "lat": 32.286129
+        }
+    },
+    {
+        "id": 283955,
+        "name": "Farkhah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.152859,
+            "lat": 32.068779
+        }
+    },
+    {
+        "id": 283971,
+        "name": "Faqquah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.40163,
+            "lat": 32.489979
+        }
+    },
+    {
+        "id": 283976,
+        "name": "Fahmah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.179119,
+            "lat": 32.382912
+        }
+    },
+    {
+        "id": 284010,
+        "name": "Dura al Qar",
+        "country": "PS",
+        "coord": {
+            "lon": 35.227139,
+            "lat": 31.95862
+        }
+    },
+    {
+        "id": 284013,
+        "name": "Domea",
+        "country": "PS",
+        "coord": {
+            "lon": 35.36705,
+            "lat": 32.05632
+        }
+    },
+    {
+        "id": 284046,
+        "name": "Dhannabah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.041439,
+            "lat": 32.313412
+        }
+    },
+    {
+        "id": 284054,
+        "name": "Dayr Sharaf",
+        "country": "PS",
+        "coord": {
+            "lon": 35.188931,
+            "lat": 32.253262
+        }
+    },
+    {
+        "id": 284065,
+        "name": "Dayr Qiddis",
+        "country": "PS",
+        "coord": {
+            "lon": 35.044369,
+            "lat": 31.94862
+        }
+    },
+    {
+        "id": 284069,
+        "name": "Dayr Jarir",
+        "country": "PS",
+        "coord": {
+            "lon": 35.29261,
+            "lat": 31.96636
+        }
+    },
+    {
+        "id": 284071,
+        "name": "Dayr Istiya",
+        "country": "PS",
+        "coord": {
+            "lon": 35.139629,
+            "lat": 32.130959
+        }
+    },
+    {
+        "id": 284072,
+        "name": "Dayr Ibzi",
+        "country": "PS",
+        "coord": {
+            "lon": 35.121052,
+            "lat": 31.917271
+        }
+    },
+    {
+        "id": 284078,
+        "name": "Dayr Dibwan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.266609,
+            "lat": 31.911119
+        }
+    },
+    {
+        "id": 284081,
+        "name": "Dayr Ballut",
+        "country": "PS",
+        "coord": {
+            "lon": 35.024509,
+            "lat": 32.06551
+        }
+    },
+    {
+        "id": 284085,
+        "name": "Dayr as Sudan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.148441,
+            "lat": 32.032131
+        }
+    },
+    {
+        "id": 284099,
+        "name": "Dayr al Hatab",
+        "country": "PS",
+        "coord": {
+            "lon": 35.32127,
+            "lat": 32.217339
+        }
+    },
+    {
+        "id": 284100,
+        "name": "Dayr al Ghusun",
+        "country": "PS",
+        "coord": {
+            "lon": 35.076889,
+            "lat": 32.35244
+        }
+    },
+    {
+        "id": 284104,
+        "name": "Dayr Abu Mashal",
+        "country": "PS",
+        "coord": {
+            "lon": 35.068439,
+            "lat": 31.99881
+        }
+    },
+    {
+        "id": 284105,
+        "name": "Dayr Abu Daif",
+        "country": "PS",
+        "coord": {
+            "lon": 35.361641,
+            "lat": 32.456009
+        }
+    },
+    {
+        "id": 284187,
+        "name": "Bruqin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.09943,
+            "lat": 32.072159
+        }
+    },
+    {
+        "id": 284194,
+        "name": "Birqin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.260761,
+            "lat": 32.454609
+        }
+    },
+    {
+        "id": 284196,
+        "name": "Burqah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.192631,
+            "lat": 32.301769
+        }
+    },
+    {
+        "id": 284197,
+        "name": "Burqah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.254299,
+            "lat": 31.89682
+        }
+    },
+    {
+        "id": 284214,
+        "name": "Burin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.250149,
+            "lat": 32.184521
+        }
+    },
+    {
+        "id": 284228,
+        "name": "Budrus",
+        "country": "PS",
+        "coord": {
+            "lon": 34.994251,
+            "lat": 31.966869
+        }
+    },
+    {
+        "id": 284237,
+        "name": "Bir Zayt",
+        "country": "PS",
+        "coord": {
+            "lon": 35.19408,
+            "lat": 31.969589
+        }
+    },
+    {
+        "id": 284238,
+        "name": "Bir Nabala",
+        "country": "PS",
+        "coord": {
+            "lon": 35.203602,
+            "lat": 31.8508
+        }
+    },
+    {
+        "id": 284269,
+        "name": "Bilin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.072041,
+            "lat": 31.92835
+        }
+    },
+    {
+        "id": 284270,
+        "name": "Biddu",
+        "country": "PS",
+        "coord": {
+            "lon": 35.149471,
+            "lat": 31.83478
+        }
+    },
+    {
+        "id": 284271,
+        "name": "Bidya",
+        "country": "PS",
+        "coord": {
+            "lon": 35.08028,
+            "lat": 32.114601
+        }
+    },
+    {
+        "id": 284284,
+        "name": "Bazzarya.h",
+        "country": "PS",
+        "coord": {
+            "lon": 35.165932,
+            "lat": 32.30798
+        }
+    },
+    {
+        "id": 284291,
+        "name": "Bayt Wazan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.215759,
+            "lat": 32.231049
+        }
+    },
+    {
+        "id": 284292,
+        "name": "Bayt Ur at Tahta",
+        "country": "PS",
+        "coord": {
+            "lon": 35.081779,
+            "lat": 31.89609
+        }
+    },
+    {
+        "id": 284294,
+        "name": "Baytunya",
+        "country": "PS",
+        "coord": {
+            "lon": 35.170479,
+            "lat": 31.896601
+        }
+    },
+    {
+        "id": 284295,
+        "name": "Bayt Imrin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.216099,
+            "lat": 32.293011
+        }
+    },
+    {
+        "id": 284297,
+        "name": "Bayt Surik",
+        "country": "PS",
+        "coord": {
+            "lon": 35.149361,
+            "lat": 31.82424
+        }
+    },
+    {
+        "id": 284298,
+        "name": "Bayt Sira",
+        "country": "PS",
+        "coord": {
+            "lon": 35.04623,
+            "lat": 31.8878
+        }
+    },
+    {
+        "id": 284304,
+        "name": "Bayt Sahur",
+        "country": "PS",
+        "coord": {
+            "lon": 35.226311,
+            "lat": 31.700951
+        }
+    },
+    {
+        "id": 284308,
+        "name": "Bayt Qad",
+        "country": "PS",
+        "coord": {
+            "lon": 35.356258,
+            "lat": 32.469681
+        }
+    },
+    {
+        "id": 284312,
+        "name": "Bayt Liqya",
+        "country": "PS",
+        "coord": {
+            "lon": 35.065399,
+            "lat": 31.869579
+        }
+    },
+    {
+        "id": 284313,
+        "name": "Bayt Lid",
+        "country": "PS",
+        "coord": {
+            "lon": 35.131691,
+            "lat": 32.260891
+        }
+    },
+    {
+        "id": 284320,
+        "name": "Bayt Kahil",
+        "country": "PS",
+        "coord": {
+            "lon": 35.065022,
+            "lat": 31.57011
+        }
+    },
+    {
+        "id": 284326,
+        "name": "Bayt Anan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.11248,
+            "lat": 31.850691
+        }
+    },
+    {
+        "id": 284328,
+        "name": "Baytin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.240978,
+            "lat": 31.926741
+        }
+    },
+    {
+        "id": 284329,
+        "name": "Bayt Ummar",
+        "country": "PS",
+        "coord": {
+            "lon": 35.104462,
+            "lat": 31.623289
+        }
+    },
+    {
+        "id": 284330,
+        "name": "Al Ittihad",
+        "country": "PS",
+        "coord": {
+            "lon": 35.115952,
+            "lat": 31.975519
+        }
+    },
+    {
+        "id": 284334,
+        "name": "Bayt Iba",
+        "country": "PS",
+        "coord": {
+            "lon": 35.20977,
+            "lat": 32.23719
+        }
+    },
+    {
+        "id": 284339,
+        "name": "Bayt Furik",
+        "country": "PS",
+        "coord": {
+            "lon": 35.335411,
+            "lat": 32.176891
+        }
+    },
+    {
+        "id": 284341,
+        "name": "Bayt Fajjar",
+        "country": "PS",
+        "coord": {
+            "lon": 35.154572,
+            "lat": 31.62443
+        }
+    },
+    {
+        "id": 284342,
+        "name": "Bayt Duqqu",
+        "country": "PS",
+        "coord": {
+            "lon": 35.131241,
+            "lat": 31.85911
+        }
+    },
+    {
+        "id": 284343,
+        "name": "Bayt Dajan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.371269,
+            "lat": 32.193031
+        }
+    },
+    {
+        "id": 284347,
+        "name": "Bayt Ula",
+        "country": "PS",
+        "coord": {
+            "lon": 35.029598,
+            "lat": 31.59618
+        }
+    },
+    {
+        "id": 284362,
+        "name": "Bayta al Fawqa",
+        "country": "PS",
+        "coord": {
+            "lon": 35.287739,
+            "lat": 32.142601
+        }
+    },
+    {
+        "id": 284376,
+        "name": "Battir",
+        "country": "PS",
+        "coord": {
+            "lon": 35.141029,
+            "lat": 31.71945
+        }
+    },
+    {
+        "id": 284405,
+        "name": "Bartaah ash Sharqiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.093601,
+            "lat": 32.473042
+        }
+    },
+    {
+        "id": 284415,
+        "name": "Bardalah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.480839,
+            "lat": 32.386318
+        }
+    },
+    {
+        "id": 284426,
+        "name": "Baqah ash Sharqiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.070541,
+            "lat": 32.41032
+        }
+    },
+    {
+        "id": 284427,
+        "name": "Baqat al Hatab",
+        "country": "PS",
+        "coord": {
+            "lon": 35.11433,
+            "lat": 32.204342
+        }
+    },
+    {
+        "id": 284461,
+        "name": "Bala",
+        "country": "PS",
+        "coord": {
+            "lon": 35.111599,
+            "lat": 32.33392
+        }
+    },
+    {
+        "id": 284480,
+        "name": "Azzun",
+        "country": "PS",
+        "coord": {
+            "lon": 35.057522,
+            "lat": 32.174961
+        }
+    },
+    {
+        "id": 284485,
+        "name": "Az Zawiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.039822,
+            "lat": 32.096272
+        }
+    },
+    {
+        "id": 284487,
+        "name": "Az Zababidah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.324108,
+            "lat": 32.38665
+        }
+    },
+    {
+        "id": 284489,
+        "name": "Azmut",
+        "country": "PS",
+        "coord": {
+            "lon": 35.309891,
+            "lat": 32.222969
+        }
+    },
+    {
+        "id": 284495,
+        "name": "Ayn Yabrud",
+        "country": "PS",
+        "coord": {
+            "lon": 35.251221,
+            "lat": 31.949181
+        }
+    },
+    {
+        "id": 284515,
+        "name": "Ayn Arik",
+        "country": "PS",
+        "coord": {
+            "lon": 35.14254,
+            "lat": 31.90613
+        }
+    },
+    {
+        "id": 284524,
+        "name": "Aynabus",
+        "country": "PS",
+        "coord": {
+            "lon": 35.245129,
+            "lat": 32.14706
+        }
+    },
+    {
+        "id": 284540,
+        "name": "Usarin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.30999,
+            "lat": 32.124989
+        }
+    },
+    {
+        "id": 284547,
+        "name": "Awarta",
+        "country": "PS",
+        "coord": {
+            "lon": 35.283878,
+            "lat": 32.161079
+        }
+    },
+    {
+        "id": 284556,
+        "name": "At Tirah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.12682,
+            "lat": 31.87022
+        }
+    },
+    {
+        "id": 284557,
+        "name": "Attil",
+        "country": "PS",
+        "coord": {
+            "lon": 35.071892,
+            "lat": 32.36935
+        }
+    },
+    {
+        "id": 284558,
+        "name": "At Taybah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.185741,
+            "lat": 32.514938
+        }
+    },
+    {
+        "id": 284559,
+        "name": "At Taybah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.299801,
+            "lat": 31.95388
+        }
+    },
+    {
+        "id": 284563,
+        "name": "Atarah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.204659,
+            "lat": 32.00058
+        }
+    },
+    {
+        "id": 284581,
+        "name": "As Sawiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.25782,
+            "lat": 32.085369
+        }
+    },
+    {
+        "id": 284593,
+        "name": "Asirah ash Shamaliyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.267159,
+            "lat": 32.25124
+        }
+    },
+    {
+        "id": 284594,
+        "name": "Asirah al Qibliyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.215691,
+            "lat": 32.178421
+        }
+    },
+    {
+        "id": 284597,
+        "name": "Ash Shuyukh",
+        "country": "PS",
+        "coord": {
+            "lon": 35.156059,
+            "lat": 31.57004
+        }
+    },
+    {
+        "id": 284598,
+        "name": "Ash Shuhada",
+        "country": "PS",
+        "coord": {
+            "lon": 35.271118,
+            "lat": 32.429489
+        }
+    },
+    {
+        "id": 284868,
+        "name": "Artas",
+        "country": "PS",
+        "coord": {
+            "lon": 35.18681,
+            "lat": 31.68939
+        }
+    },
+    {
+        "id": 284881,
+        "name": "Ar Rihiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.077808,
+            "lat": 31.4695
+        }
+    },
+    {
+        "id": 284888,
+        "name": "Arranah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.322708,
+            "lat": 32.4972
+        }
+    },
+    {
+        "id": 284893,
+        "name": "Arrabah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.201889,
+            "lat": 32.40517
+        }
+    },
+    {
+        "id": 284904,
+        "name": "Al Araqa",
+        "country": "PS",
+        "coord": {
+            "lon": 35.200272,
+            "lat": 32.47057
+        }
+    },
+    {
+        "id": 284922,
+        "name": "Aqraba",
+        "country": "PS",
+        "coord": {
+            "lon": 35.34547,
+            "lat": 32.12495
+        }
+    },
+    {
+        "id": 284933,
+        "name": "Anzah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.220112,
+            "lat": 32.359161
+        }
+    },
+    {
+        "id": 284935,
+        "name": "An Nuwayimah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.43549,
+            "lat": 31.89212
+        }
+    },
+    {
+        "id": 284936,
+        "name": "An Nazlah ash Sharqiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.109161,
+            "lat": 32.410721
+        }
+    },
+    {
+        "id": 284939,
+        "name": "An Naqurah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.201351,
+            "lat": 32.26506
+        }
+    },
+    {
+        "id": 284962,
+        "name": "An Nabi Ilyas",
+        "country": "PS",
+        "coord": {
+            "lon": 35.017601,
+            "lat": 32.184818
+        }
+    },
+    {
+        "id": 284972,
+        "name": "Anin",
+        "country": "PS",
+        "coord": {
+            "lon": 35.166679,
+            "lat": 32.50259
+        }
+    },
+    {
+        "id": 284973,
+        "name": "Anata",
+        "country": "PS",
+        "coord": {
+            "lon": 35.259022,
+            "lat": 31.80924
+        }
+    },
+    {
+        "id": 284976,
+        "name": "Anabta",
+        "country": "PS",
+        "coord": {
+            "lon": 35.116928,
+            "lat": 32.307919
+        }
+    },
+    {
+        "id": 285009,
+        "name": "Al Qubaybah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.13678,
+            "lat": 31.83886
+        }
+    },
+    {
+        "id": 285023,
+        "name": "Al Mughayyir",
+        "country": "PS",
+        "coord": {
+            "lon": 35.384762,
+            "lat": 32.422279
+        }
+    },
+    {
+        "id": 285024,
+        "name": "Al Mughayyir",
+        "country": "PS",
+        "coord": {
+            "lon": 35.347832,
+            "lat": 32.019199
+        }
+    },
+    {
+        "id": 285032,
+        "name": "Al Midyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.005001,
+            "lat": 31.935921
+        }
+    },
+    {
+        "id": 285033,
+        "name": "Al Mazraah ash Sharqiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.281521,
+            "lat": 32.000179
+        }
+    },
+    {
+        "id": 285034,
+        "name": "Az Zaytuniyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.162399,
+            "lat": 31.95402
+        }
+    },
+    {
+        "id": 285049,
+        "name": "Al Lubban al Gharbi",
+        "country": "PS",
+        "coord": {
+            "lon": 35.03928,
+            "lat": 32.035042
+        }
+    },
+    {
+        "id": 285061,
+        "name": "Al Khadir",
+        "country": "PS",
+        "coord": {
+            "lon": 35.166851,
+            "lat": 31.69405
+        }
+    },
+    {
+        "id": 285069,
+        "name": "Al Judayrah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.19706,
+            "lat": 31.855869
+        }
+    },
+    {
+        "id": 285070,
+        "name": "Al Jib",
+        "country": "PS",
+        "coord": {
+            "lon": 35.184509,
+            "lat": 31.85203
+        }
+    },
+    {
+        "id": 285071,
+        "name": "Al Janiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.121422,
+            "lat": 31.93848
+        }
+    },
+    {
+        "id": 285091,
+        "name": "Al Hashimiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.219379,
+            "lat": 32.463921
+        }
+    },
+    {
+        "id": 285102,
+        "name": "Al Fasayil",
+        "country": "PS",
+        "coord": {
+            "lon": 35.443508,
+            "lat": 32.025089
+        }
+    },
+    {
+        "id": 285103,
+        "name": "Al Fandaqumiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.203289,
+            "lat": 32.320599
+        }
+    },
+    {
+        "id": 285112,
+        "name": "Al Awja",
+        "country": "PS",
+        "coord": {
+            "lon": 35.46756,
+            "lat": 31.950689
+        }
+    },
+    {
+        "id": 285113,
+        "name": "Al Attarah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.163731,
+            "lat": 32.32571
+        }
+    },
+    {
+        "id": 285126,
+        "name": "Ajjul",
+        "country": "PS",
+        "coord": {
+            "lon": 35.179691,
+            "lat": 32.02232
+        }
+    },
+    {
+        "id": 285127,
+        "name": "Ajjah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.1959,
+            "lat": 32.360741
+        }
+    },
+    {
+        "id": 285161,
+        "name": "Ibwayn",
+        "country": "PS",
+        "coord": {
+            "lon": 35.199921,
+            "lat": 32.031441
+        }
+    },
+    {
+        "id": 285220,
+        "name": "Abu Qashsh",
+        "country": "PS",
+        "coord": {
+            "lon": 35.184261,
+            "lat": 31.94883
+        }
+    },
+    {
+        "id": 285279,
+        "name": "Abu Dis",
+        "country": "PS",
+        "coord": {
+            "lon": 35.261662,
+            "lat": 31.76215
+        }
+    },
+    {
+        "id": 285285,
+        "name": "Abud",
+        "country": "PS",
+        "coord": {
+            "lon": 35.068329,
+            "lat": 32.016369
+        }
+    },
+    {
+        "id": 6967857,
+        "name": "An Nasr",
+        "country": "PS",
+        "coord": {
+            "lon": 34.302528,
+            "lat": 31.28137
+        }
+    },
+    {
+        "id": 6967863,
+        "name": "Abasan al Jadidah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.345921,
+            "lat": 31.341579
+        }
+    },
+    {
+        "id": 6967877,
+        "name": "Umm an Nasr",
+        "country": "PS",
+        "coord": {
+            "lon": 34.518631,
+            "lat": 31.560841
+        }
+    },
+    {
+        "id": 6967895,
+        "name": "Juhr ad Dik",
+        "country": "PS",
+        "coord": {
+            "lon": 34.437191,
+            "lat": 31.455709
+        }
+    },
+    {
+        "id": 6968050,
+        "name": "Al Musaddar",
+        "country": "PS",
+        "coord": {
+            "lon": 34.378021,
+            "lat": 31.410521
+        }
+    },
+    {
+        "id": 6968055,
+        "name": "Wadi as Salqa",
+        "country": "PS",
+        "coord": {
+            "lon": 34.33754,
+            "lat": 31.40048
+        }
+    },
+    {
+        "id": 6968063,
+        "name": "Al Mughraqah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.412079,
+            "lat": 31.46587
+        }
+    },
+    {
+        "id": 7535657,
+        "name": "Karney Shomron",
+        "country": "PS",
+        "coord": {
+            "lon": 35.097672,
+            "lat": 32.171398
+        }
+    },
+    {
+        "id": 7889665,
+        "name": "Bani Zayd",
+        "country": "PS",
+        "coord": {
+            "lon": 35.103161,
+            "lat": 32.039242
+        }
+    },
+    {
+        "id": 7890119,
+        "name": "Az Zaayyim",
+        "country": "PS",
+        "coord": {
+            "lon": 35.26511,
+            "lat": 31.788521
+        }
+    },
+    {
+        "id": 7890350,
+        "name": "Al Ubaydiyah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.29007,
+            "lat": 31.71697
+        }
+    },
+    {
+        "id": 7890353,
+        "name": "Khallat an Numan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.24226,
+            "lat": 31.717489
+        }
+    },
+    {
+        "id": 7890368,
+        "name": "Ad Dawhah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.18047,
+            "lat": 31.69948
+        }
+    },
+    {
+        "id": 7890385,
+        "name": "Wadi Rahhal",
+        "country": "PS",
+        "coord": {
+            "lon": 35.167271,
+            "lat": 31.665159
+        }
+    },
+    {
+        "id": 7890393,
+        "name": "Arab ar Rashaydah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.232269,
+            "lat": 31.571119
+        }
+    },
+    {
+        "id": 7890813,
+        "name": "Bayt Inun",
+        "country": "PS",
+        "coord": {
+            "lon": 35.124401,
+            "lat": 31.558701
+        }
+    },
+    {
+        "id": 7890843,
+        "name": "Bayt Maqdum",
+        "country": "PS",
+        "coord": {
+            "lon": 34.97192,
+            "lat": 31.53537
+        }
+    },
+    {
+        "id": 7890844,
+        "name": "Al Buqah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.142792,
+            "lat": 31.54199
+        }
+    },
+    {
+        "id": 7890846,
+        "name": "Khallat ad Dar",
+        "country": "PS",
+        "coord": {
+            "lon": 35.113621,
+            "lat": 31.49737
+        }
+    },
+    {
+        "id": 7890847,
+        "name": "Dayr Samit",
+        "country": "PS",
+        "coord": {
+            "lon": 34.974419,
+            "lat": 31.520571
+        }
+    },
+    {
+        "id": 7891142,
+        "name": "Al Hilah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.107422,
+            "lat": 31.474541
+        }
+    },
+    {
+        "id": 7891144,
+        "name": "As Surrah",
+        "country": "PS",
+        "coord": {
+            "lon": 34.99897,
+            "lat": 31.47098
+        }
+    },
+    {
+        "id": 7891283,
+        "name": "Bayt Amrah",
+        "country": "PS",
+        "coord": {
+            "lon": 35.049519,
+            "lat": 31.450199
+        }
+    },
+    {
+        "id": 7891506,
+        "name": "Rabud",
+        "country": "PS",
+        "coord": {
+            "lon": 35.016201,
+            "lat": 31.439091
+        }
+    },
+    {
+        "id": 7891511,
+        "name": "Al Karmil",
+        "country": "PS",
+        "coord": {
+            "lon": 35.132778,
+            "lat": 31.42301
+        }
+    },
+    {
+        "id": 7891512,
+        "name": "Khallat Salih",
+        "country": "PS",
+        "coord": {
+            "lon": 35.115162,
+            "lat": 31.42013
+        }
+    },
+    {
+        "id": 7895292,
+        "name": "Bir al Basha",
+        "country": "PS",
+        "coord": {
+            "lon": 35.230129,
+            "lat": 32.420219
+        }
+    },
+    {
+        "id": 7895641,
+        "name": "Al Badhan",
+        "country": "PS",
+        "coord": {
+            "lon": 35.33247,
+            "lat": 32.258572
+        }
+    },
+    {
+        "id": 7896869,
+        "name": "Ayn al Bayda",
+        "country": "PS",
+        "coord": {
+            "lon": 35.508381,
+            "lat": 32.380508
+        }
+    },
+    {
+        "id": 7897890,
+        "name": "Az Zubaydat",
+        "country": "PS",
+        "coord": {
+            "lon": 35.530048,
+            "lat": 32.173302
+        }
+    },
+    {
+        "id": 7898046,
+        "name": "Al Jiftlik",
+        "country": "PS",
+        "coord": {
+            "lon": 35.487381,
+            "lat": 32.140701
+        }
+    },
+    {
+        "id": 7915400,
+        "name": "Khursa",
+        "country": "PS",
+        "coord": {
+            "lon": 35.017422,
+            "lat": 31.482321
+        }
+    }
+]

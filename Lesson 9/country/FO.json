@@ -1,0 +1,272 @@
+[
+    {
+        "id": 2619504,
+        "name": "Hv\u00edtanes",
+        "country": "FO",
+        "coord": {
+            "lon": -6.76297,
+            "lat": 62.045471
+        }
+    },
+    {
+        "id": 2616145,
+        "name": "Nor\u00f0oyar s\u00fdsla",
+        "country": "FO",
+        "coord": {
+            "lon": -6.58333,
+            "lat": 62.283329
+        }
+    },
+    {
+        "id": 2618795,
+        "name": "Klaksvik",
+        "country": "FO",
+        "coord": {
+            "lon": -6.58901,
+            "lat": 62.226551
+        }
+    },
+    {
+        "id": 2621808,
+        "name": "Fuglafjordur",
+        "country": "FO",
+        "coord": {
+            "lon": -6.81395,
+            "lat": 62.24398
+        }
+    },
+    {
+        "id": 2612137,
+        "name": "Su\u00f0uroyar s\u00fdsla",
+        "country": "FO",
+        "coord": {
+            "lon": -6.81667,
+            "lat": 61.48333
+        }
+    },
+    {
+        "id": 2620838,
+        "name": "Hamar",
+        "country": "FO",
+        "coord": {
+            "lon": -6.95,
+            "lat": 61.599998
+        }
+    },
+    {
+        "id": 2618304,
+        "name": "Kr\u00e1ir",
+        "country": "FO",
+        "coord": {
+            "lon": -6.8138,
+            "lat": 61.467419
+        }
+    },
+    {
+        "id": 2612225,
+        "name": "Streymoyar S\u00fdsla",
+        "country": "FO",
+        "coord": {
+            "lon": -7,
+            "lat": 62.133331
+        }
+    },
+    {
+        "id": 2611396,
+        "name": "Torshavn",
+        "country": "FO",
+        "coord": {
+            "lon": -6.77164,
+            "lat": 62.009731
+        }
+    },
+    {
+        "id": 2624653,
+        "name": "Argir",
+        "country": "FO",
+        "coord": {
+            "lon": -6.77154,
+            "lat": 61.995949
+        }
+    },
+    {
+        "id": 2622387,
+        "name": "Eysturoyar s\u00fdsla",
+        "country": "FO",
+        "coord": {
+            "lon": -6.86667,
+            "lat": 62.216671
+        }
+    },
+    {
+        "id": 2614402,
+        "name": "Runav\u00edk",
+        "country": "FO",
+        "coord": {
+            "lon": -6.71667,
+            "lat": 62.116669
+        }
+    },
+    {
+        "id": 7798678,
+        "name": "Eystur",
+        "country": "FO",
+        "coord": {
+            "lon": -6.75247,
+            "lat": 62.209068
+        }
+    },
+    {
+        "id": 2622677,
+        "name": "Ei\u00f0i",
+        "country": "FO",
+        "coord": {
+            "lon": -7.08541,
+            "lat": 62.300861
+        }
+    },
+    {
+        "id": 2622320,
+        "name": "Faroe Islands",
+        "country": "FO",
+        "coord": {
+            "lon": -7,
+            "lat": 62
+        }
+    },
+    {
+        "id": 2611060,
+        "name": "Tvoroyri",
+        "country": "FO",
+        "coord": {
+            "lon": -6.81109,
+            "lat": 61.555569
+        }
+    },
+    {
+        "id": 2616495,
+        "name": "Nesi\u00f0",
+        "country": "FO",
+        "coord": {
+            "lon": -7.15493,
+            "lat": 62.150059
+        }
+    },
+    {
+        "id": 2614323,
+        "name": "Saksun",
+        "country": "FO",
+        "coord": {
+            "lon": -7.17241,
+            "lat": 62.248211
+        }
+    },
+    {
+        "id": 2621415,
+        "name": "Gj\u00f3gv",
+        "country": "FO",
+        "coord": {
+            "lon": -6.9358,
+            "lat": 62.322941
+        }
+    },
+    {
+        "id": 2610816,
+        "name": "V\u00e1ga S\u00fdsla",
+        "country": "FO",
+        "coord": {
+            "lon": -7.25,
+            "lat": 62.083328
+        }
+    },
+    {
+        "id": 2610685,
+        "name": "Vatnsoyrar",
+        "country": "FO",
+        "coord": {
+            "lon": -7.23333,
+            "lat": 62.066669
+        }
+    },
+    {
+        "id": 2610343,
+        "name": "Vestmanna",
+        "country": "FO",
+        "coord": {
+            "lon": -7.16639,
+            "lat": 62.156391
+        }
+    },
+    {
+        "id": 2610806,
+        "name": "Vagur",
+        "country": "FO",
+        "coord": {
+            "lon": -6.81185,
+            "lat": 61.47324
+        }
+    },
+    {
+        "id": 2612890,
+        "name": "Sorvagur",
+        "country": "FO",
+        "coord": {
+            "lon": -7.3577,
+            "lat": 62.09726
+        }
+    },
+    {
+        "id": 2614219,
+        "name": "Sandoyar S\u00fdsla",
+        "country": "FO",
+        "coord": {
+            "lon": -6.75,
+            "lat": 61.833328
+        }
+    },
+    {
+        "id": 2614212,
+        "name": "Sandur",
+        "country": "FO",
+        "coord": {
+            "lon": -6.80778,
+            "lat": 61.842499
+        }
+    },
+    {
+        "id": 2616914,
+        "name": "Midvagur",
+        "country": "FO",
+        "coord": {
+            "lon": -7.19389,
+            "lat": 62.051109
+        }
+    },
+    {
+        "id": 2618511,
+        "name": "Kollafjordhur",
+        "country": "FO",
+        "coord": {
+            "lon": -6.91067,
+            "lat": 62.111671
+        }
+    },
+    {
+        "id": 2619693,
+        "name": "Hoyvik",
+        "country": "FO",
+        "coord": {
+            "lon": -6.78127,
+            "lat": 62.034069
+        }
+    },
+    {
+        "id": 2622676,
+        "name": "Eidi",
+        "country": "FO",
+        "coord": {
+            "lon": -7.09245,
+            "lat": 62.299301
+        }
+    }
+]
