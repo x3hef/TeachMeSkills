@@ -1,0 +1,19 @@
+[project] # Это section
+name = "notes-app" # имя проекта
+version = "0.1.0" # версия проекта
+description = "Add your description here" #
+requires-python = ">=3.13" # проект требует пайтон 3.13 и выше
+dependencies = [
+    "django>=6.0.5", # uv add django
+] # список зависимостей
+
+# TOML = Tom's Obvious Minimal Language.
+# Dependency = код, который написал другой разработчик, а ты используешь.
+# Например:
+# Django
+# requests
+# fastapi
+# sqlalchemy
+
+# UV - это менеджер окружения и зависимостей
+# uv run запускает команду внутри виртуального окружения 

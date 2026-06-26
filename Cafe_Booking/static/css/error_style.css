@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+body, html {
+    margin: 0; padding: 0;
+    width: 100%; height: 100%;
+    background-color: #000 !important;
+    overflow: hidden;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.main-bg {
+    position: fixed !important;
+    top: 0; left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-size: cover;
+    background-position: center;
+    z-index: -2 !important;
+    filter: brightness(0.4); /* Чуть ярче, чтобы видеть фон */
+}
+
+.giant-text {
+    position: fixed !important;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45vw;
+    font-weight: 900;
+    color: rgba(68, 240, 13, 0.15) !important; /* Прозрачный зеленый */
+    z-index: -1 !important;
+    pointer-events: none;
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Кнопка с эффектом матового стекла */
+.portal-btn {
+    margin-top: 30px;
+    padding: 15px 45px;
+    background: rgba(68, 240, 13, 0.1); /* Полупрозрачный фон */
+    backdrop-filter: blur(12px); /* Размытие (матовость) */
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(68, 240, 13, 0.4);
+    border-radius: 50px;
+    color: #44f00d;
+    text-decoration: none;
+    font-weight: 900;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.portal-btn:hover {
+    background: rgba(68, 240, 13, 0.2);
+    box-shadow: 0 0 20px rgba(68, 240, 13, 0.4);
+    transform: scale(1.05);
+}
+
+.portal-scene {
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+.portal-ring {
+    width: 100%; height: 100%;
+    background: repeating-conic-gradient(from 0deg, #44f00d 0deg 20deg, #1c5d07 20deg 40deg);
+    border-radius: 50%;
+    filter: blur(10px);
+    animation: spin 10s linear infinite;
+}
+
+.rick-static {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }

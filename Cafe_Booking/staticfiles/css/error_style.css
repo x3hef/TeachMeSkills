@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+body, html {
+    margin: 0; padding: 0;
+    height: 100vh;
+    background: #000;
+    font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
+}
+
+.main-bg {
+    position: fixed;
+    width: 110vw; height: 110vh;
+    top: -5%; left: -5%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.giant-text {
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40vw;
+    font-weight: 900;
+    color: rgba(68, 240, 13, 0.05);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.portal-scene {
+    position: relative;
+    width: 350px; height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portal-ring {
+    position: absolute;
+    width: 320px; /* Кайма портала вокруг Рика[cite: 6] */
+    height: 320px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(from 0deg, #44f00d 0deg 30deg, #1c5d07 30deg 60deg);
+    filter: blur(12px);
+    animation: spin 10s linear infinite;
+    opacity: 0.8;
+}
+
+.rick-static {
+    position: absolute;
+    width: 300px; /* Персонажи чуть меньше портала[cite: 6] */
+    z-index: 15;
+}
+
+.portal-btn {
+    background: rgba(10, 50, 10, 0.7);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(68, 240, 13, 0.4);
+    border-radius: 50px;
+    padding: 15px 45px;
+    color: #44f00d;
+    text-decoration: none;
+    font-weight: 900;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+
+.portal-btn:hover { transform: scale(1.05); box-shadow: 0 0 20px #44f00d; }
+
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }

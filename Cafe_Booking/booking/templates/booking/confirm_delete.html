@@ -1,0 +1,13 @@
+{% extends 'booking/base.html' %}
+{% block content %}
+<div class="glass-card" style="text-align: center;">
+    <h2 style="color: #ff4d4d;">отмена брони? 🧐</h2>
+    <p>столик №{{ reservation.table.number }} на {{ reservation.date }}</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" style="background: #ff4d4d; color: white;">да, отменить</button>
+    </form>
+    <br>
+    <a href="{% url 'my_reservations' %}" class="btn-text" style="color: white; text-decoration: none; opacity: 0.6;">передумал, оставить</a>
+</div>
+{% endblock %}

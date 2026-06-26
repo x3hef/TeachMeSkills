@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Last viewed notes</h1>
+<p>The list is stored in Django session and contains up to 20 last viewed notes.</p>
+<ul>
+  {% for note in notes %}
+    <li><a href="{% url 'notes:note-detail' note.pk %}">{{ note.title }}</a></li>
+  {% empty %}
+    <li>No viewed notes yet.</li>
+  {% endfor %}
+</ul>
+{% endblock %}

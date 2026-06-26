@@ -1,0 +1,25 @@
+{% extends 'booking/base.html' %}
+
+{% block content %}
+<div style="max-width: 500px; margin: 20px auto;">
+    <h2>Вход в систему 🔐</h2>
+    <hr>
+
+    <!-- Если были ошибки входа (неверный пароль), Django покажет их здесь -->
+    {% if form.errors %}
+        <p style="color: red;">Неверное имя пользователя или пароль. Попробуйте еще раз.</p>
+    {% endif %}
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" style="background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+            Войти
+        </button>
+    </form>
+
+    <p style="margin-top: 15px;">
+        Впервые у нас? <a href="{% url 'register' %}">Завести аккаунт</a>
+    </p>
+</div>
+{% endblock %}

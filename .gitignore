@@ -1,0 +1,50 @@
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+
+*.so
+
+# Build / distribution
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+
+# PyCharm
+
+.idea/
+*.iml
+
+# Logs
+
+*.log
+
+# Testing / coverage
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Environment variables
+
+.env
+
+# OS files
+
+.DS_Store

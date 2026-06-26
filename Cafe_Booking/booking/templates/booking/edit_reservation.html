@@ -1,0 +1,14 @@
+{% extends 'booking/base.html' %}
+{% block content %}
+<div class="glass-card">
+    <h2 style="text-align: center; margin-bottom: 30px;">🧪 оформление брони</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">подтвердить</button>
+    </form>
+    <div style="margin-top: 20px; text-align: center;">
+        <a href="{% url 'table_list' %}" class="btn-text" style="color: white; font-size: 0.8rem; text-decoration: none; opacity: 0.5;">← отмена</a>
+    </div>
+</div>
+{% endblock %}

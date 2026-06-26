@@ -1,0 +1,19 @@
+{% extends 'booking/base.html' %}
+
+{% block content %}
+<div style="max-width: 500px; margin: 20px auto;">
+    <h2>Регистрация нового гостя 📝</h2>
+    <hr>
+    <form method="POST">
+        {% csrf_token %}
+        <!-- form.as_p выведет все поля: логин, пароль и подтверждение пароля -->
+        {{ form.as_p }}
+        <button type="submit" style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+            Зарегистрироваться
+        </button>
+    </form>
+    <p style="margin-top: 15px;">
+        Уже есть аккаунт? <a href="{% url 'login' %}">Войти здесь</a>
+    </p>
+</div>
+{% endblock %}

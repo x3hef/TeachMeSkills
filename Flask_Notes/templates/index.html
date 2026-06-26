@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if current_user.is_authenticated %}
+
+{% else %}
+
+
+<div class="logo-wrapper">
+
+    <div class="pencil">✏️</div>
+
+    <div class="title">Твои заметки</div>
+
+    <div style="margin-top:20px; display:flex; gap:10px; justify-content:center;">
+
+        <a href="/login" class="btn-apple" style="width:auto; padding:10px 20px;">
+            Войти
+        </a>
+
+        <a href="/register" class="btn-apple" style="width:auto; padding:10px 20px;">
+            Регистрация
+        </a>
+
+    </div>
+
+</div>
+
+{% endif %}
+
+{% endblock %}

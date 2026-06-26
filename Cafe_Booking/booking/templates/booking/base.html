@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}c-137 | cafe{% endblock %}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <!-- Увеличиваем версию ?v=, чтобы браузер точно увидел изменения -->
+    <link rel="stylesheet" href="{% static 'css/base_style.css' %}?v=15">
+</head>
+<body>
+    <div id="custom-cursor"></div>
+
+    <nav class="minimal-nav">
+        <div class="nav-brand">
+            <img src="{% static 'images/nav_icon.png' %}" alt="logo" style="height: 35px;">
+        </div>
+
+        <div class="nav-links">
+            <!-- Главная ссылка (table_list) -->
+            <a href="{% url 'table_list' %}">главная</a>
+
+            {% if user.is_authenticated %}
+                <a href="{% url 'create_reservation' %}">забронировать</a>
+                <a href="{% url 'my_reservations' %}">мои брони</a>
+                <form action="{% url 'logout' %}" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit" class="btn-logout-link">выйти</button>
+                </form>
+            {% else %}
+                <a href="{% url 'login' %}">войти</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+        {% block content %}{% endblock %}
+    </main>
+
+    <script src="{% static 'js/base_effects.js' %}"></script>
+</body>
+</html>

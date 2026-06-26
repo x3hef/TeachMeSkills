@@ -1,0 +1,299 @@
+[
+    {
+        "id": 291074,
+        "name": "Ras al Khaymah",
+        "country": "AE",
+        "coord": {
+            "lon": 55.943199,
+            "lat": 25.78953
+        }
+    },
+    {
+        "id": 291696,
+        "name": "Khawr Fakkan",
+        "country": "AE",
+        "coord": {
+            "lon": 56.341991,
+            "lat": 25.33132
+        }
+    },
+    {
+        "id": 292239,
+        "name": "Diba",
+        "country": "AE",
+        "coord": {
+            "lon": 56.272911,
+            "lat": 25.619551
+        }
+    },
+    {
+        "id": 389287,
+        "name": "Al Muqa\u0163\u0163arah",
+        "country": "AE",
+        "coord": {
+            "lon": 54.561932,
+            "lat": 24.26762
+        }
+    },
+    {
+        "id": 290595,
+        "name": "Umm al Qaywayn",
+        "country": "AE",
+        "coord": {
+            "lon": 55.75,
+            "lat": 25.5
+        }
+    },
+    {
+        "id": 290594,
+        "name": "Umm al Qaywayn",
+        "country": "AE",
+        "coord": {
+            "lon": 55.555168,
+            "lat": 25.56473
+        }
+    },
+    {
+        "id": 291279,
+        "name": "Muzayri",
+        "country": "AE",
+        "coord": {
+            "lon": 53.788101,
+            "lat": 23.143551
+        }
+    },
+    {
+        "id": 290557,
+        "name": "United Arab Emirates",
+        "country": "AE",
+        "coord": {
+            "lon": 54,
+            "lat": 24
+        }
+    },
+    {
+        "id": 292969,
+        "name": "Ab\u016b Z\u0327aby",
+        "country": "AE",
+        "coord": {
+            "lon": 54,
+            "lat": 23.66667
+        }
+    },
+    {
+        "id": 290400,
+        "name": "Z\u0327uwayhir",
+        "country": "AE",
+        "coord": {
+            "lon": 53.200001,
+            "lat": 23.283331
+        }
+    },
+    {
+        "id": 292968,
+        "name": "Abu Dhabi",
+        "country": "AE",
+        "coord": {
+            "lon": 54.366669,
+            "lat": 24.466669
+        }
+    },
+    {
+        "id": 292673,
+        "name": "Ash Sh\u0101riqah",
+        "country": "AE",
+        "coord": {
+            "lon": 55.75,
+            "lat": 25
+        }
+    },
+    {
+        "id": 292672,
+        "name": "Sharjah",
+        "country": "AE",
+        "coord": {
+            "lon": 55.403301,
+            "lat": 25.357309
+        }
+    },
+    {
+        "id": 6691135,
+        "name": "Al Ghuwair",
+        "country": "AE",
+        "coord": {
+            "lon": 55.391911,
+            "lat": 25.35985
+        }
+    },
+    {
+        "id": 292224,
+        "name": "Dubayy",
+        "country": "AE",
+        "coord": {
+            "lon": 55.333328,
+            "lat": 25
+        }
+    },
+    {
+        "id": 292223,
+        "name": "Dubai",
+        "country": "AE",
+        "coord": {
+            "lon": 55.304722,
+            "lat": 25.258169
+        }
+    },
+    {
+        "id": 290845,
+        "name": "Shandaghah",
+        "country": "AE",
+        "coord": {
+            "lon": 55.283329,
+            "lat": 25.258329
+        }
+    },
+    {
+        "id": 292913,
+        "name": "Al Ayn",
+        "country": "AE",
+        "coord": {
+            "lon": 55.760559,
+            "lat": 24.191669
+        }
+    },
+    {
+        "id": 292879,
+        "name": "Al Fujayrah",
+        "country": "AE",
+        "coord": {
+            "lon": 56.25,
+            "lat": 25.133329
+        }
+    },
+    {
+        "id": 292878,
+        "name": "Al Fujayrah",
+        "country": "AE",
+        "coord": {
+            "lon": 56.341412,
+            "lat": 25.116409
+        }
+    },
+    {
+        "id": 291110,
+        "name": "Raf\u0101\u2018",
+        "country": "AE",
+        "coord": {
+            "lon": 56.35014,
+            "lat": 25.34701
+        }
+    },
+    {
+        "id": 292766,
+        "name": "Al Q\u012bm\u012b",
+        "country": "AE",
+        "coord": {
+            "lon": 55.745819,
+            "lat": 24.24914
+        }
+    },
+    {
+        "id": 292932,
+        "name": "Ajman",
+        "country": "AE",
+        "coord": {
+            "lon": 55.43504,
+            "lat": 25.41111
+        }
+    },
+    {
+        "id": 6691204,
+        "name": "Muwafjah",
+        "country": "AE",
+        "coord": {
+            "lon": 55.46928,
+            "lat": 25.34852
+        }
+    },
+    {
+        "id": 291075,
+        "name": "Ra\u2019s al Khaymah",
+        "country": "AE",
+        "coord": {
+            "lon": 56,
+            "lat": 25.66667
+        }
+    },
+    {
+        "id": 412516,
+        "name": "Al \u1e28amr\u0101n\u012byah",
+        "country": "AE",
+        "coord": {
+            "lon": 55.90028,
+            "lat": 25.611389
+        }
+    },
+    {
+        "id": 290624,
+        "name": "\u2018\u016ad al Bay\u1e11\u0101\u2019",
+        "country": "AE",
+        "coord": {
+            "lon": 55.45533,
+            "lat": 25.016251
+        }
+    },
+    {
+        "id": 412578,
+        "name": "A\u0163 \u0162uw\u0101r",
+        "country": "AE",
+        "coord": {
+            "lon": 55.366669,
+            "lat": 25.26667
+        }
+    },
+    {
+        "id": 292836,
+        "name": "Al Ja\u1e29r",
+        "country": "AE",
+        "coord": {
+            "lon": 55.583328,
+            "lat": 24.25
+        }
+    },
+    {
+        "id": 8057179,
+        "name": "Min\u0163aqat al Ma\u0163\u0101r",
+        "country": "AE",
+        "coord": {
+            "lon": 54.45343,
+            "lat": 24.437
+        }
+    },
+    {
+        "id": 292688,
+        "name": "Ar Ruways",
+        "country": "AE",
+        "coord": {
+            "lon": 52.73056,
+            "lat": 24.110279
+        }
+    },
+    {
+        "id": 292953,
+        "name": "Adh Dhayd",
+        "country": "AE",
+        "coord": {
+            "lon": 55.881569,
+            "lat": 25.28812
+        }
+    },
+    {
+        "id": 8056564,
+        "name": "Al Am\u0101n",
+        "country": "AE",
+        "coord": {
+            "lon": 54.423531,
+            "lat": 24.432261
+        }
+    }
+]

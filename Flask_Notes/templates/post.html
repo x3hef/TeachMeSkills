@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="notes-header">
+
+    <div class="left-side">
+        <span>Мои заметки</span>
+    </div>
+    <input id="searchInput" class="search-input" placeholder="Поиск заметок...">
+    <button class="create-btn" type="button" onclick="openModal(event)">
+        + Создать
+    </button>
+
+</div>
+
+{% if notes %}
+
+<div class="notes-grid">
+
+    {% for note in notes %}
+
+    <div class="note-card {% if note.is_done %}done{% endif %}">
+
+        <div class="note-header">
+            <div class="emoji">🗒️</div>
+            <div class="note-title">{{ note.title }}</div>
+        </div>
+
+        <div class="note-text">
+            {{ note.content }}
+        </div>
+
+
+        <div class="note-actions">
+
+            <button class="action-btn"
+                    onclick="window.location.href='/posts/{{ note.id }}/toggle'">
+                {% if note.is_done %}✓{% else %}○{% endif %}
+            </button>
+
+            <button class="action-btn"
+                    onclick="openEditModal('{{ note.id }}', '{{ note.title }}', '{{ note.content }}')">
+                ✎
+            </button>
+
+            <button class="action-btn"
+                    onclick="if(confirm('Удалить заметку?')) window.location.href='/posts/{{ note.id }}/delete'">
+                🗑
+            </button>
+
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+{% else %}
+
+<p style="text-align:center; margin-top:30px; color:#888;">
+    У тебя пока нет заметок
+</p>
+
+{% endif %}
+
+<div id="modal" class="modal-overlay">
+
+    <div class="modal-box">
+
+        <form method="POST" action="/posts/create">
+
+            <h3>➕ Новая заметка</h3>
+
+            <input type="text" name="title" placeholder="Заголовок" required>
+
+            <textarea name="content" placeholder="Текст заметки" required></textarea>
+
+            <div class="modal-actions">
+                <button class="btn-apple" type="submit">Сохранить</button>
+                <button type="button" class="btn-cancel" onclick="closeModal()">Отмена</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+<div id="editModal" class="modal-overlay">
+
+    <div class="modal-box">
+
+        <form id="editForm" method="POST">
+
+            <h3>✏️ Редактирование заметки</h3>
+
+            <input type="text" id="editTitle" name="title" required>
+
+            <textarea id="editContent" name="content" required></textarea>
+
+            <div class="modal-actions">
+                <button class="btn-apple" type="submit">Сохранить</button>
+                <button type="button" class="btn-cancel" onclick="closeEditModal()">Отмена</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+{% endblock %}
