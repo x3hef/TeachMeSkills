@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>PyRunner</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            margin: 0;
+            background: #0d1117;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .game-wrap {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(180deg, #101820, #0d1117);
+        }
+
+        .top {
+            padding: 10px 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #161b22;
+            border-bottom: 2px solid #ffd43b;
+            font-weight: bold;
+        }
+
+        .title {
+            color: #ffd43b;
+        }
+
+        .hud {
+            display: flex;
+            gap: 14px;
+            font-size: 14px;
+        }
+
+        .canvas-box {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        canvas {
+            width: 100%;
+            max-width: 1000px;
+            aspect-ratio: 900 / 520;
+            background: #87ceeb;
+            border-bottom: 4px solid #ffd43b;
+        }
+
+        .controls {
+            background: #161b22;
+            padding: 12px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        .btn {
+            border: none;
+            border-radius: 14px;
+            padding: 16px;
+            background: #30363d;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .btn:active {
+            background: #ffd43b;
+            color: #111;
+            transform: scale(0.97);
+        }
+
+        .jump {
+            background: #ffd43b;
+            color: #111;
+        }
+
+        .panel {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: calc(100% - 34px);
+            max-width: 420px;
+            background: #161b22;
+            border: 2px solid #ffd43b;
+            border-radius: 22px;
+            padding: 22px;
+            text-align: center;
+            display: none;
+            z-index: 10;
+            box-shadow: 0 20px 80px rgba(0, 0, 0, 0.5);
+        }
+
+        .panel h1 {
+            color: #ffd43b;
+            margin-top: 0;
+        }
+
+        .panel button {
+            width: 100%;
+            border: none;
+            border-radius: 14px;
+            padding: 14px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            background: #ffd43b;
+            color: #111;
+        }
+
+        .panel .secondary {
+            background: #30363d;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<div class="game-wrap">
+    <div class="top">
+        <div class="title">🐍 PyRunner</div>
+        <div class="hud">
+            <div>🪙 <span id="coins">0</span></div>
+            <div>⭐ <span id="score">0</span></div>
+        </div>
+    </div>
+
+    <div class="canvas-box">
+        <canvas id="game" width="900" height="520"></canvas>
+    </div>
+
+    <div class="controls">
+        <button class="btn" id="leftBtn">⬅️</button>
+        <button class="btn jump" id="jumpBtn">⬆️ Прыжок</button>
+        <button class="btn" id="rightBtn">➡️</button>
+    </div>
+</div>
+
+<div class="panel" id="startPanel">
+    <h1>🐍 PyRunner</h1>
+    <p>
+        Собирай Python-монеты 🪙, прыгай по платформам,
+        избегай багов 🐞 и доберись до финиша 🏁.
+    </p>
+    <button onclick="startGame()">▶️ Начать игру</button>
+</div>
+
+<div class="panel" id="finishPanel">
+    <h1 id="finishTitle">🏁 Финиш</h1>
+    <p id="finishText"></p>
+    <button onclick="sendResult()">📤 Отправить результат в бота</button>
+    <button class="secondary" onclick="restartGame()">🔁 Играть снова</button>
+</div>
+
+<script>
+    const tg = window.Telegram ? window.Telegram.WebApp : null;
+
+    if (tg) {
+        tg.ready();
+        tg.expand();
+    }
+
+    const canvas = document.getElementById("game");
+    const ctx = canvas.getContext("2d");
+
+    const coinsEl = document.getElementById("coins");
+    const scoreEl = document.getElementById("score");
+
+    const startPanel = document.getElementById("startPanel");
+    const finishPanel = document.getElementById("finishPanel");
+    const finishTitle = document.getElementById("finishTitle");
+    const finishText = document.getElementById("finishText");
+
+    const levelWidth = 2400;
+    const gravity = 0.7;
+
+    let cameraX = 0;
+    let running = false;
+    let finished = false;
+
+    const keys = {
+        left: false,
+        right: false,
+        jump: false
+    };
+
+    const playerStart = {
+        x: 70,
+        y: 380
+    };
+
+    const player = {
+        x: playerStart.x,
+        y: playerStart.y,
+        w: 34,
+        h: 46,
+        vx: 0,
+        vy: 0,
+        speed: 4.2,
+        jumpPower: 14,
+        onGround: false,
+        coins: 0,
+        score: 0
+    };
+
+    const platforms = [
+        {x: 0, y: 470, w: 520, h: 50},
+        {x: 600, y: 420, w: 230, h: 28},
+        {x: 910, y: 360, w: 220, h: 28},
+        {x: 1220, y: 430, w: 280, h: 28},
+        {x: 1600, y: 370, w: 240, h: 28},
+        {x: 1930, y: 430, w: 420, h: 50},
+        {x: 2280, y: 430, w: 120, h: 50}
+    ];
+
+    const coins = [
+        {x: 220, y: 420, r: 12, taken: false},
+        {x: 360, y: 420, r: 12, taken: false},
+        {x: 680, y: 375, r: 12, taken: false},
+        {x: 770, y: 375, r: 12, taken: false},
+        {x: 970, y: 315, r: 12, taken: false},
+        {x: 1060, y: 315, r: 12, taken: false},
+        {x: 1310, y: 385, r: 12, taken: false},
+        {x: 1430, y: 385, r: 12, taken: false},
+        {x: 1680, y: 325, r: 12, taken: false},
+        {x: 1780, y: 325, r: 12, taken: false},
+        {x: 2030, y: 385, r: 12, taken: false},
+        {x: 2180, y: 385, r: 12, taken: false}
+    ];
+
+    const bugs = [
+        {x: 440, y: 438, w: 34, h: 32, vx: 1.2, min: 390, max: 500, alive: true},
+        {x: 1280, y: 398, w: 34, h: 32, vx: 1.4, min: 1240, max: 1460, alive: true},
+        {x: 2040, y: 398, w: 34, h: 32, vx: 1.5, min: 1950, max: 2260, alive: true}
+    ];
+
+    const finishFlag = {
+        x: 2320,
+        y: 320,
+        w: 40,
+        h: 110
+    };
+
+    function resetObjects() {
+        player.x = playerStart.x;
+        player.y = playerStart.y;
+        player.vx = 0;
+        player.vy = 0;
+        player.onGround = false;
+        player.coins = 0;
+        player.score = 0;
+
+        coins.forEach(coin => coin.taken = false);
+
+        bugs[0].x = 440;
+        bugs[1].x = 1280;
+        bugs[2].x = 2040;
+        bugs.forEach(bug => bug.alive = true);
+
+        cameraX = 0;
+        finished = false;
+        updateHud();
+    }
+
+    function startGame() {
+        resetObjects();
+        startPanel.style.display = "none";
+        finishPanel.style.display = "none";
+        running = true;
+        gameLoop();
+    }
+
+    function restartGame() {
+        finishPanel.style.display = "none";
+        startGame();
+    }
+
+    function updateHud() {
+        coinsEl.textContent = player.coins;
+        scoreEl.textContent = player.score;
+    }
+
+    function rectsOverlap(a, b) {
+        return (
+            a.x < b.x + b.w &&
+            a.x + a.w > b.x &&
+            a.y < b.y + b.h &&
+            a.y + a.h > b.y
+        );
+    }
+
+    function circleRectOverlap(circle, rect) {
+        const closestX = Math.max(rect.x, Math.min(circle.x, rect.x + rect.w));
+        const closestY = Math.max(rect.y, Math.min(circle.y, rect.y + rect.h));
+
+        const dx = circle.x - closestX;
+        const dy = circle.y - closestY;
+
+        return (dx * dx + dy * dy) < (circle.r * circle.r);
+    }
+
+    function updatePlayer() {
+        if (keys.left) {
+            player.vx = -player.speed;
+        } else if (keys.right) {
+            player.vx = player.speed;
+        } else {
+            player.vx = 0;
+        }
+
+        if (keys.jump && player.onGround) {
+            player.vy = -player.jumpPower;
+            player.onGround = false;
+        }
+
+        player.vy += gravity;
+
+        player.x += player.vx;
+
+        if (player.x < 0) {
+            player.x = 0;
+        }
+
+        if (player.x + player.w > levelWidth) {
+            player.x = levelWidth - player.w;
+        }
+
+        const prevY = player.y;
+
+        player.y += player.vy;
+        player.onGround = false;
+
+        for (const platform of platforms) {
+            if (rectsOverlap(player, platform)) {
+                const previousBottom = prevY + player.h;
+
+                if (previousBottom <= platform.y && player.vy >= 0) {
+                    player.y = platform.y - player.h;
+                    player.vy = 0;
+                    player.onGround = true;
+                } else if (prevY >= platform.y + platform.h && player.vy < 0) {
+                    player.y = platform.y + platform.h;
+                    player.vy = 0;
+                }
+            }
+        }
+
+        if (player.y > 650) {
+            endGame(false);
+        }
+    }
+
+    function updateCoins() {
+        for (const coin of coins) {
+            if (!coin.taken && circleRectOverlap(coin, player)) {
+                coin.taken = true;
+                player.coins += 1;
+                player.score += 10;
+                updateHud();
+            }
+        }
+    }
+
+    function updateBugs() {
+        for (const bug of bugs) {
+            if (!bug.alive) {
+                continue;
+            }
+
+            bug.x += bug.vx;
+
+            if (bug.x < bug.min || bug.x > bug.max) {
+                bug.vx *= -1;
+            }
+
+            if (rectsOverlap(player, bug)) {
+                const playerBottom = player.y + player.h;
+                const bugTop = bug.y;
+
+                if (player.vy > 0 && playerBottom - bugTop < 18) {
+                    bug.alive = false;
+                    player.vy = -9;
+                    player.score += 15;
+                    updateHud();
+                } else {
+                    endGame(false);
+                }
+            }
+        }
+    }
+
+    function checkFinish() {
+        if (rectsOverlap(player, finishFlag)) {
+            player.score += 50;
+            updateHud();
+            endGame(true);
+        }
+    }
+
+    function updateCamera() {
+        cameraX = player.x - 260;
+
+        if (cameraX < 0) {
+            cameraX = 0;
+        }
+
+        if (cameraX > levelWidth - canvas.width) {
+            cameraX = levelWidth - canvas.width;
+        }
+    }
+
+    function endGame(success) {
+        if (finished) {
+            return;
+        }
+
+        finished = true;
+        running = false;
+
+        finishPanel.style.display = "block";
+
+        if (success) {
+            finishTitle.textContent = "🏁 Уровень пройден!";
+            finishText.innerHTML =
+                `Ты собрал <b>${player.coins}</b> монет.<br>` +
+                `Твой счёт: <b>${player.score}</b>`;
+        } else {
+            finishTitle.textContent = "💀 Ты проиграл";
+            finishText.innerHTML =
+                `Монеты: <b>${player.coins}</b><br>` +
+                `Счёт: <b>${player.score}</b><br><br>` +
+                `Попробуй ещё раз.`;
+        }
+    }
+
+    function sendResult() {
+        const data = {
+            action: "python_platformer_finish",
+            coins: player.coins,
+            score: player.score,
+            completed: finished && player.x > 2200
+        };
+
+        if (tg) {
+            tg.sendData(JSON.stringify(data));
+            tg.close();
+        } else {
+            alert(JSON.stringify(data));
+        }
+    }
+
+    function drawBackground() {
+        const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+        gradient.addColorStop(0, "#69c7ff");
+        gradient.addColorStop(1, "#bdefff");
+
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.fillStyle = "rgba(255,255,255,0.7)";
+        ctx.beginPath();
+        ctx.arc(140 - cameraX * 0.2, 90, 34, 0, Math.PI * 2);
+        ctx.arc(180 - cameraX * 0.2, 90, 45, 0, Math.PI * 2);
+        ctx.arc(225 - cameraX * 0.2, 95, 32, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.fillStyle = "#ffd43b";
+        ctx.beginPath();
+        ctx.arc(760, 70, 36, 0, Math.PI * 2);
+        ctx.fill();
+    }
+
+    function drawPlatforms() {
+        for (const p of platforms) {
+            ctx.fillStyle = "#2ea043";
+            ctx.fillRect(p.x - cameraX, p.y, p.w, p.h);
+
+            ctx.fillStyle = "#1f6f32";
+            ctx.fillRect(p.x - cameraX, p.y + 18, p.w, p.h - 18);
+        }
+    }
+
+    function drawCoins() {
+        for (const coin of coins) {
+            if (coin.taken) {
+                continue;
+            }
+
+            ctx.fillStyle = "#ffd43b";
+            ctx.beginPath();
+            ctx.arc(coin.x - cameraX, coin.y, coin.r, 0, Math.PI * 2);
+            ctx.fill();
+
+            ctx.fillStyle = "#111";
+            ctx.font = "bold 13px Arial";
+            ctx.textAlign = "center";
+            ctx.fillText("₽", coin.x - cameraX, coin.y + 5);
+        }
+    }
+
+    function drawBugs() {
+        for (const bug of bugs) {
+            if (!bug.alive) {
+                continue;
+            }
+
+            ctx.fillStyle = "#d73a49";
+            ctx.fillRect(bug.x - cameraX, bug.y, bug.w, bug.h);
+
+            ctx.fillStyle = "white";
+            ctx.font = "22px Arial";
+            ctx.textAlign = "center";
+            ctx.fillText("🐞", bug.x - cameraX + bug.w / 2, bug.y + 25);
+        }
+    }
+
+    function drawFinish() {
+        ctx.fillStyle = "#111";
+        ctx.fillRect(finishFlag.x - cameraX, finishFlag.y, 6, finishFlag.h);
+
+        ctx.fillStyle = "#ffd43b";
+        ctx.fillRect(finishFlag.x - cameraX + 6, finishFlag.y, 52, 34);
+
+        ctx.fillStyle = "#111";
+        ctx.font = "22px Arial";
+        ctx.fillText("🏁", finishFlag.x - cameraX + 34, finishFlag.y + 25);
+    }
+
+    function drawPlayer() {
+        const x = player.x - cameraX;
+        const y = player.y;
+
+        ctx.fillStyle = "#3776ab";
+        ctx.fillRect(x, y + 10, player.w, player.h - 10);
+
+        ctx.fillStyle = "#ffd43b";
+        ctx.fillRect(x + 5, y, player.w - 10, 20);
+
+        ctx.fillStyle = "#111";
+        ctx.font = "22px Arial";
+        ctx.textAlign = "center";
+        ctx.fillText("🐍", x + player.w / 2, y + 32);
+    }
+
+    function drawCodeDecor() {
+        const labels = [
+            {x: 150, y: 445, text: "print()"},
+            {x: 650, y: 395, text: "for"},
+            {x: 955, y: 335, text: "if"},
+            {x: 1260, y: 405, text: "list"},
+            {x: 1645, y: 345, text: "def"},
+            {x: 1980, y: 405, text: "class"}
+        ];
+
+        ctx.font = "bold 18px monospace";
+        ctx.textAlign = "left";
+
+        for (const item of labels) {
+            ctx.fillStyle = "rgba(0,0,0,0.5)";
+            ctx.fillRect(item.x - cameraX - 8, item.y - 23, item.text.length * 13, 28);
+
+            ctx.fillStyle = "#ffd43b";
+            ctx.fillText(item.text, item.x - cameraX, item.y);
+        }
+    }
+
+    function render() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        drawBackground();
+        drawPlatforms();
+        drawCodeDecor();
+        drawCoins();
+        drawBugs();
+        drawFinish();
+        drawPlayer();
+    }
+
+    function gameLoop() {
+        if (!running) {
+            return;
+        }
+
+        updatePlayer();
+        updateCoins();
+        updateBugs();
+        checkFinish();
+        updateCamera();
+        render();
+
+        requestAnimationFrame(gameLoop);
+    }
+
+    function bindButton(buttonId, keyName) {
+        const btn = document.getElementById(buttonId);
+
+        btn.addEventListener("touchstart", (event) => {
+            event.preventDefault();
+            keys[keyName] = true;
+        });
+
+        btn.addEventListener("touchend", (event) => {
+            event.preventDefault();
+            keys[keyName] = false;
+        });
+
+        btn.addEventListener("mousedown", () => {
+            keys[keyName] = true;
+        });
+
+        btn.addEventListener("mouseup", () => {
+            keys[keyName] = false;
+        });
+
+        btn.addEventListener("mouseleave", () => {
+            keys[keyName] = false;
+        });
+    }
+
+    bindButton("leftBtn", "left");
+    bindButton("rightBtn", "right");
+    bindButton("jumpBtn", "jump");
+
+    window.addEventListener("keydown", (event) => {
+        if (event.code === "ArrowLeft") keys.left = true;
+        if (event.code === "ArrowRight") keys.right = true;
+        if (event.code === "ArrowUp" || event.code === "Space") keys.jump = true;
+    });
+
+    window.addEventListener("keyup", (event) => {
+        if (event.code === "ArrowLeft") keys.left = false;
+        if (event.code === "ArrowRight") keys.right = false;
+        if (event.code === "ArrowUp" || event.code === "Space") keys.jump = false;
+    });
+
+    startPanel.style.display = "block";
+    render();
+</script>
+</body>
+</html>

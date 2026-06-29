@@ -1,0 +1,13 @@
+[project]
+name = "pymaster-bot"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.29.0",
+    "aiosqlite>=0.22.1",
+    "google-genai>=2.10.0",
+    "openai>=2.44.0",
+    "python-dotenv>=1.2.2",
+    "sqlalchemy>=2.0.51",
+]
