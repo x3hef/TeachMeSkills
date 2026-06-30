@@ -2,7 +2,7 @@ from rest_framework import generics
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 from notes.models import Note
-from notes.views import add_note_to_history
+from notes.utils import add_note_to_history
 
 from .serializers import NoteSerializer
 

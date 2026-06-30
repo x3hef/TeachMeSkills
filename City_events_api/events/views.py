@@ -1,4 +1,4 @@
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from django.utils import timezone
 
 from rest_framework import generics, permissions
@@ -7,6 +7,8 @@ from rest_framework.views import APIView
 
 from .models import Event
 from .serializers import EventSerializer, UserRegistrationSerializer, UserSerializer
+
+User = get_user_model()
 
 
 class UserListCreateView(generics.ListCreateAPIView):

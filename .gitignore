@@ -1,50 +1,49 @@
-# Python cache
+# Базы данных во всех папках
+*.sqlite3
+*.sqlite
+*.db
+*.db-journal
+*.sqlite3-journal
+*.db-shm
+*.db-wal
 
-**pycache**/
-*.pyc
-*.pyo
-*.pyd
-
-# C extensions
-
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 *.so
 
-# Build / distribution
-
-build/
-dist/
-*.egg-info/
-.eggs/
-
-# Virtual environments
-
+# Виртуальное окружение
 venv/
-env/
 .venv/
+env/
+ENV/
 
-# PyCharm
+# Переменные окружения
+.env
+.env.*
+!.env.example
 
-.idea/
-*.iml
-
-# Logs
-
+# Django
+staticfiles/
+media/
 *.log
 
-# Testing / coverage
+# Celery
+celerybeat-schedule
+celerybeat.pid
 
+# Тесты и кэш
+.pytest_cache/
 .coverage
 htmlcov/
-.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Jupyter
+# IDE
+.idea/
+.vscode/
 
-.ipynb_checkpoints/
-
-# Environment variables
-
-.env
-
-# OS files
-
+# Системные файлы
 .DS_Store
+Thumbs.db
