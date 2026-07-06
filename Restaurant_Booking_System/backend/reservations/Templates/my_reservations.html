@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Мои брони | Loft Restaurant{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1 class="page-title">Ваши бронирования</h1>
+    <p class="subtitle">История предстоящих визитов</p>
+</div>
+
+{% if reservations %}
+    <div class="cards-grid">
+        {% for reservation in reservations %}
+        <div class="item-card" style="padding: 30px; display: block;">
+            <h3 class="card-title">Столик № {{ reservation.table.number }}</h3>
+            <hr style="border: none; border-top: 1px solid var(--border-color); margin: 20px 0;">
+
+            <div class="card-meta" style="flex-direction: column; align-items: flex-start; gap: 10px; margin-bottom: 30px;">
+                <div class="meta-item">
+                    <strong>Дата:</strong> {{ reservation.date }}
+                </div>
+                <div class="meta-item">
+                    <strong>Время:</strong> {{ reservation.time }}
+                </div>
+            </div>
+
+            <form method="post" action="/reservations/delete/{{ reservation.id }}/">
+                {% csrf_token %}
+                <button class="btn btn-danger" style="width: 100%;">Отменить визит</button>
+            </form>
+        </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <div class="glass-card" style="text-align: center; margin: 0 auto;">
+        <h3 class="title">Список пуст</h3>
+        <p class="subtitle" style="margin-bottom: 30px;">У вас пока нет запланированных визитов.</p>
+        <a href="/tables/" class="btn btn-primary">Подобрать столик</a>
+    </div>
+{% endif %}
+{% endblock %}

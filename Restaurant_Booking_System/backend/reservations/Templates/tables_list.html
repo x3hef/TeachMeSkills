@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Пространство | Loft Dynamics{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1 class="page-title">Выбор зоны</h1>
+        <p class="subtitle">Технологичный комфорт. Выберите подходящий стол для вашего мероприятия.</p>
+    </div>
+
+    <div class="cards-grid">
+        {% for table in tables %}
+        <div class="item-card">
+            <div class="card-image-wrapper">
+                {% if table.image %}
+                    <img src="{{ table.image.url }}" class="card-image" alt="Стол {{ table.number }}">
+                {% else %}
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" class="card-image" alt="Интерьер">
+                {% endif %}
+            </div>
+
+            <div class="card-content">
+                <h3 class="card-title">Стол №{{ table.number }}</h3>
+                <div class="card-meta">
+                    Вместимость: до {{ table.seats }} персон
+                </div>
+
+                <a href="/reservations/new/?table={{ table.id }}" class="btn btn-primary" style="margin-top: auto;">
+                    <span class="btn-content">Резерв</span>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

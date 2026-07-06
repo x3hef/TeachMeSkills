@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Мой профиль | Loft Dynamics{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1 class="page-title">Мои резервы</h1>
+        <p class="subtitle">Управление предстоящими визитами</p>
+    </div>
+
+    {% if reservations %}
+        <div class="cards-grid">
+            {% for reservation in reservations %}
+            <div class="item-card" style="padding: 40px;">
+                <h3 class="card-title" style="font-size: 36px; color: var(--f1-orange);">№{{ reservation.table.number }}</h3>
+                <h4 style="text-transform: uppercase; margin: 0 0 20px 0; letter-spacing: 2px;">Статус: Подтвержден</h4>
+
+                <div style="background: #1a1a1a; padding: 20px; margin-bottom: 30px; border: 1px solid #333;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <span style="color: var(--text-muted); text-transform: uppercase; font-size: 12px;">Дата</span>
+                        <span style="font-weight: 600;">{{ reservation.date }}</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: var(--text-muted); text-transform: uppercase; font-size: 12px;">Время</span>
+                        <span style="font-weight: 600;">{{ reservation.time }}</span>
+                    </div>
+                </div>
+
+                <form method="post" action="/reservations/delete/{{ reservation.id }}/">
+                    {% csrf_token %}
+                    <button class="btn btn-danger" style="width: 100%;">
+                        <span class="btn-content">Отменить визит</span>
+                    </button>
+                </form>
+            </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="glass-card" style="text-align: center; margin: 0 auto;">
+            <h3 class="title" style="margin-bottom: 20px;">Нет активных броней</h3>
+            <p class="subtitle" style="margin-bottom: 40px;">Ваша история визитов пуста.</p>
+            <a href="/tables/" class="btn btn-primary"><span class="btn-content">Забронировать стол</span></a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
