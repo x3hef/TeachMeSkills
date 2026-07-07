@@ -1,6 +1,5 @@
 # Задание 9
 
-
 def element(nums):
     count = 0
     candidate = None
