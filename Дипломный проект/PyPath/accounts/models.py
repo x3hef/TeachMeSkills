@@ -1,12 +1,11 @@
-from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django.db import models
 
 
-class User(AbstractUser): # основа для наследников.
+class User(AbstractUser):
     class Role(models.TextChoices):
-        STUDENT = "student", "Студент"
-        MENTOR = "mentor", "Наставник"
-        COURSE_AUTHOR = "course_author", "Автор курса"
+        STUDENT = "student", "Ученик"
+        TEACHER = "teacher", "Преподаватель"
 
     email = models.EmailField(
         verbose_name="Электронная почта",
@@ -21,4 +20,4 @@ class User(AbstractUser): # основа для наследников.
     )
 
     def __str__(self) -> str:
-        return self.username
+        return self.get_username()
