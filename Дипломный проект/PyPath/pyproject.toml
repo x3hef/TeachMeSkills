@@ -62,3 +62,7 @@ django_settings_module = "config.settings"
 [[tool.mypy.overrides]]
 module = ["environ"]
 ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.test_settings"
+python_files = ["tests.py", "test_*.py", "*_tests.py"]

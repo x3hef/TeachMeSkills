@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from education.models import Course, Lesson, Module
+from education.models import Course, Enrollment, Lesson, Module
 
 
 class CourseSerializer(serializers.ModelSerializer):
@@ -17,7 +17,12 @@ class CourseSerializer(serializers.ModelSerializer):
             "created_at",
             "updated_at",
         )
-        read_only_fields = ("id", "slug", "created_at", "updated_at")
+        read_only_fields = (
+            "id",
+            "slug",
+            "created_at",
+            "updated_at",
+        )
 
 
 class ModuleSerializer(serializers.ModelSerializer):
@@ -35,7 +40,10 @@ class ModuleSerializer(serializers.ModelSerializer):
             "description",
             "order",
         )
-        read_only_fields = ("id", "course_title")
+        read_only_fields = (
+            "id",
+            "course_title",
+        )
 
 
 class LessonSerializer(serializers.ModelSerializer):
@@ -67,3 +75,30 @@ class LessonSerializer(serializers.ModelSerializer):
             "created_at",
             "updated_at",
         )
+
+
+class EnrollmentSerializer(serializers.ModelSerializer):
+    """Сериализатор записи ученика на курс."""
+
+    student_username = serializers.CharField(source="student.username", read_only=True)
+    course_title = serializers.CharField(source="course.title", read_only=True)
+
+    class Meta:
+        model = Enrollment
+        fields = (
+            "id",
+            "student",
+            "student_username",
+            "course",
+            "course_title",
+            "enrolled_at",
+            "is_active",
+        )
+        read_only_fields = (
+            "id",
+            "student",
+            "student_username",
+            "course_title",
+            "enrolled_at",
+        )
+        validators: list[object] = []
